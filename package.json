@@ -1,10 +1,11 @@
 {
-  "name": "aprendendo-vue",
+  "name": "MyStatic GithubPage Website",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "node scripts/gh-pages-deploy.js",
     "preview": "vite preview"
   },
   "dependencies": {
