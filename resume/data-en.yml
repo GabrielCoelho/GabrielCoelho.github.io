@@ -1,0 +1,92 @@
+/* #*/ export const PERSON = `
+# Any fields left unchanged, please delete so your resume is fully yours!
+
+name:
+  first: Gabriel
+  middle: Coelho
+  last: Soares
+about: Hi, I'm Gabriel, popularly known as "Potato". I have been interested in Web programming since 2005, and in 2008, when I had my first computer, I created several test sites of my own. In 2013 I graduated as a technician in IT focused on Web Development, but I didn't apply it for any job at the time. Only in 2017, when I finished my second ETEC, I've worked on some websites for local businesses, until in 2019 I was called to the City Hall. I didn't leave programming aside, using my knowledge to automate tables with VBA. Today, I'm in my freshman year at FATEC, looking to reintegrate myself into the job market as a Junior Web Developer
+position: Junior Web Developer
+
+birth:
+  year: 1995
+  location: Mogi Guaçu - SP/Brazil
+
+# you may add more experiences by duplicating the template
+
+experience:
+- company: Prefeitura Municipal de Mogi Guaçu
+  position: Administrative Assistant
+  timeperiod: since December of 2019
+  description: School Secretary, using the knowledge acquired in programming, I was able to automate a large part of my work with VBA, gaining prestige for the speed in delivering work.
+  website: https://mogiguacu.sp.gov.br/
+
+- company: CJR Express
+  position: Web System Developr
+  timeperiod: January 2019 - March 2019
+  description: Creation of a Sales Website for CJR Express, an existing store in the city that sold electronic products (now extinct).
+
+- company: Agência Diamond
+  position: FullStack Web Developer
+  timeperiod: April 2018 - August 2018
+  description: Responsible for creating new websites for the agency's clients, as well as maintaining the websites of previous clients. The sites were built with PHP and Javascript, but some of the ones I maintained were created in .NET.
+
+education:
+- degree: College of Technologist in Systems Analysis and Development
+  timeperiod: August 2023 - in course
+  description:  Objective of creating, designing, developing and analyzing programs, software and systems for companies.
+  website: https://fatecmm.cps.sp.gov.br/
+
+- degree: Technician in IT
+  timeperiod: August 2016 - December 2017
+  description: Successfully completed with the termpaper approved by the panel. The termpaper theme was a PHP system for online courses.
+
+- degree: High School Integrated with Computer Technician for the Internet
+  timeperiod: January 2011 - Decemeber 2013
+  description: Successfully completed with the termpaper approved by the panel. The theme of the termpaper was a Voting website for any and all types of elections or polls, where only users invited to respond to the poll could vote.
+# skill level goes from 0 to 100
+skills:
+- name: HTML5
+  level: 75
+- name: CSS3
+  level: 75
+- name: JavaScript
+  level: 75
+- name: Vuejs
+  level: 35
+- name: PHP
+  level: 70
+- name: Git
+  level: 60
+- name: Linux
+  level: 60
+
+  knowledge: Intermediate English, king of the worst punchlines.
+
+projects:
+- name: Tech-Train
+  platform: PHP
+  timeperiod: December 2017
+  description: Online courses Website
+  url: https://github.com/GabrielCoelho/techtrain
+
+# optional, not all resume templates have hobbies included
+hobbies:
+- name: Musical Composition
+
+- name: Roman Catholic
+
+contributions:
+- name: best-resume-ever
+  description: I incorporated the projects tab in the "Material-Dark" and "Purple" models in 2019
+  url: https://github.com/salomonelli/best-resume-ever
+
+contact:
+  email: gabriel.soares35@fatec.sp.gov.br
+  phone: +55 19 9-8240-3584
+  street: Rua Alcides Marangoni, 78 - Jd. Ipê 1
+  city: Mogi Guaçu
+  github: GabrielCoelho
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+lang: en
+`
