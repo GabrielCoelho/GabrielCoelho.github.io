@@ -15,7 +15,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "@GabrielCoelho"
-  description: "Back-end Developer | Blog and CV"
+  description: "Fullstack Developer"
   keywords: [Blog, Portfolio, Backend]
   author: "Gabriel Coelho Soares"
   # author: ["Me", "You"] # multiple authors
@@ -58,7 +58,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Gabriel Coelho Soares
-    subtitle: "Fullstack Developer | In love with the Back-end"
+    subtitle: "Fullstack Developer | Stay tuned ;)"
     imageUrl: "index.png"
     imageWidth: 350
     imageHeight: 350
