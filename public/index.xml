@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gabriel Coelho Soares</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Gabriel Coelho Soares</description>
-    <image>
-      <title>Gabriel Coelho Soares</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +13,21 @@
       <link>http://localhost:1313/posts/1st/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/1st/</guid>
-      <description>Primeiro post deste novo blog, contando sobre minhas expectativas para o ano de 2025 e uma breve explicação do blog em si</description>
+      <description>&lt;p&gt;Um novo ano se inicia e, desta vez, algo que não acontecia há muito tempo tornou-se realidade: &lt;strong&gt;Inicio o ano desempregado&lt;/strong&gt;&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Archive</title>
+      <link>http://localhost:1313/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archives/</guid>
+      <description>archives</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>http://localhost:1313/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/search/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

@@ -14,10 +14,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: GabrielCoelho
+  title: "@GabrielCoelho"
   description: "Back-end Developer | Blog and CV"
   keywords: [Blog, Portfolio, Backend]
-  author: GabrielCoelho
+  author: "Gabriel Coelho Soares"
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -43,22 +43,22 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/laptop-coding.png"
+    favicon16x16: "/laptop-coding.png"
+    favicon32x32: "/laptop-coding.png"
+    apple_touch_icon: "/laptop-coding.png"
+    safari_pinned_tab: "/laptop-coding.png"
 
   label:
-    text: "Gabriel Coelho"
-    icon: /apple-touch-icon.png
+    text: "@GabrielCoelho"
+    # icon: /laptop-coding.png
     iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
     title: Gabriel Coelho Soares
-    subtitle: "Back-end Developer"
+    subtitle: "Fullstack Developer | In love with the Back-end"
     imageUrl: "index.png"
     imageWidth: 350
     imageHeight: 350
@@ -130,6 +130,3 @@ markup:
     # guessSyntax: true
     # lineNos: true
     style: gruvbox
-  goldmark:
-    renderer:
-      unsafe: true
