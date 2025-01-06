@@ -21,6 +21,20 @@
       <description>Primeiro post deste novo blog, contando sobre minhas expectativas para o ano de 2025 e uma breve explicação do blog em si</description>
     </item>
     <item>
+      <title>Cálculo I - Aula 01</title>
+      <link>http://localhost:1313/posts/mca-001/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mca-001/</guid>
+      <description>Resumo/anotação da aula de MCA002</description>
+    </item>
+    <item>
+      <title>Matemática Discreta - Aula 07</title>
+      <link>http://localhost:1313/posts/mmd-007/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mmd-007/</guid>
+      <description>Resumo/anotação da aula de MMD002</description>
+    </item>
+    <item>
       <title>Classificação e Curva ABC</title>
       <link>http://localhost:1313/posts/aag-005/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
@@ -42,6 +56,20 @@
       <description>Resumo/anotação da primeira terceira de AAG001</description>
     </item>
     <item>
+      <title>Matemática Discreta - Aula 06</title>
+      <link>http://localhost:1313/posts/mmd-006/</link>
+      <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mmd-006/</guid>
+      <description>Resumo/anotação da aula de MMD002</description>
+    </item>
+    <item>
+      <title>Matemática Discreta - Aula 05</title>
+      <link>http://localhost:1313/posts/mmd-005/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mmd-005/</guid>
+      <description>Resumo/anotação da aula de MMD002</description>
+    </item>
+    <item>
       <title>Fordismo e Toyotismo</title>
       <link>http://localhost:1313/posts/aag-002/</link>
       <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
@@ -49,11 +77,32 @@
       <description>Resumo/anotação da primeira terceira de AAG001</description>
     </item>
     <item>
+      <title>Matemática Discreta - Aula 04</title>
+      <link>http://localhost:1313/posts/mmd-004/</link>
+      <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mmd-004/</guid>
+      <description>Resumo/anotação da aula de MMD002</description>
+    </item>
+    <item>
       <title>Aprendendo algoritmos em C</title>
       <link>http://localhost:1313/posts/ial002-aula03/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/ial002-aula03/</guid>
       <description>Continuação das aulas de IAL002 - Aprendendo C</description>
+    </item>
+    <item>
+      <title>Matemática Discreta - Aula 03</title>
+      <link>http://localhost:1313/posts/mmd-003/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mmd-003/</guid>
+      <description>Resumo/anotação da aula de MMD002</description>
+    </item>
+    <item>
+      <title>Matemática Discreta - Aula 02</title>
+      <link>http://localhost:1313/posts/mmd-002/</link>
+      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mmd-002/</guid>
+      <description>Resumo/anotação da aula de MMD002</description>
     </item>
     <item>
       <title>Introdução à Lógica de Programação</title>
@@ -75,6 +124,13 @@
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/mmd-001/</guid>
       <description>Resumo/anotação da aula de MMD002</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/mmd-008/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/mmd-008/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
