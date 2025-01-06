@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Gabriel Coelho Soares</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Gabriel Coelho Soares</description>
+    <title>Notes on Gabriel Coelho Soares</title>
+    <link>http://localhost:1313/tags/notes/</link>
+    <description>Recent content in Notes on Gabriel Coelho Soares</description>
     <image>
       <title>Gabriel Coelho Soares</title>
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,15 +11,8 @@
     </image>
     <generator>Hugo -- 0.140.2</generator>
     <language>pt-br</language>
-    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Um novo ano...</title>
-      <link>http://localhost:1313/posts/1st/</link>
-      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/1st/</guid>
-      <description>Primeiro post deste novo blog, contando sobre minhas expectativas para o ano de 2025 e uma breve explicação do blog em si</description>
-    </item>
+    <lastBuildDate>Mon, 16 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Just In Time e Kanban</title>
       <link>http://localhost:1313/posts/aag-003/</link>
@@ -33,20 +26,6 @@
       <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/aag-002/</guid>
       <description>Resumo/anotação da primeira terceira de AAG001</description>
-    </item>
-    <item>
-      <title>Aprendendo algoritmos em C</title>
-      <link>http://localhost:1313/posts/ial002-aula03/</link>
-      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ial002-aula03/</guid>
-      <description>Continuação das aulas de IAL002 - Aprendendo C</description>
-    </item>
-    <item>
-      <title>Introdução à Lógica de Programação</title>
-      <link>http://localhost:1313/posts/ial002-aulas1-e-2/</link>
-      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ial002-aulas1-e-2/</guid>
-      <description>Anotações da aula de IAL002 (Introdução à Lógica de Programação)</description>
     </item>
     <item>
       <title>Introdução à Administração Geral</title>

@@ -20,5 +20,40 @@
       <guid>http://localhost:1313/posts/1st/</guid>
       <description>Primeiro post deste novo blog, contando sobre minhas expectativas para o ano de 2025 e uma breve explicação do blog em si</description>
     </item>
+    <item>
+      <title>Just In Time e Kanban</title>
+      <link>http://localhost:1313/posts/aag-003/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/aag-003/</guid>
+      <description>Resumo/anotação da primeira terceira de AAG001</description>
+    </item>
+    <item>
+      <title>Fordismo e Toyotismo</title>
+      <link>http://localhost:1313/posts/aag-002/</link>
+      <pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/aag-002/</guid>
+      <description>Resumo/anotação da primeira terceira de AAG001</description>
+    </item>
+    <item>
+      <title>Aprendendo algoritmos em C</title>
+      <link>http://localhost:1313/posts/ial002-aula03/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ial002-aula03/</guid>
+      <description>Continuação das aulas de IAL002 - Aprendendo C</description>
+    </item>
+    <item>
+      <title>Introdução à Lógica de Programação</title>
+      <link>http://localhost:1313/posts/ial002-aulas1-e-2/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ial002-aulas1-e-2/</guid>
+      <description>Anotações da aula de IAL002 (Introdução à Lógica de Programação)</description>
+    </item>
+    <item>
+      <title>Introdução à Administração Geral</title>
+      <link>http://localhost:1313/posts/aag-001/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/aag-001/</guid>
+      <description>Resumo/anotação da primeira aula de AAG001</description>
+    </item>
   </channel>
 </rss>

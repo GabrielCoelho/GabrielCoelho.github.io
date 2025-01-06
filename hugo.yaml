@@ -41,7 +41,7 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "/laptop-coding.png"
     favicon16x16: "/laptop-coding.png"
@@ -124,9 +124,24 @@ pygmentsUseClasses: true
 markup:
   defaultMarkdownHandler: "goldmark"
   highlight:
-    # noClasses: true
+    noClasses: true
     # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
+    codeFences: true
+    guessSyntax: true
     # lineNos: true
     style: gruvbox
+  goldmark: 
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - $
+            - $
+        enable: true
+  params:
+      math: true

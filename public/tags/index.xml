@@ -27,5 +27,26 @@
       <guid>http://localhost:1313/tags/goals/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Aag001</title>
+      <link>http://localhost:1313/tags/aag001/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/aag001/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notes</title>
+      <link>http://localhost:1313/tags/notes/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ial002</title>
+      <link>http://localhost:1313/tags/ial002/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ial002/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

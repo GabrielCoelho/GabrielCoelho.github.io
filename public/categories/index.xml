@@ -20,5 +20,12 @@
       <guid>http://localhost:1313/categories/life/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Ads-Fatec</title>
+      <link>http://localhost:1313/categories/ads-fatec/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ads-fatec/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
