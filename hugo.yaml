@@ -51,7 +51,7 @@ params:
 
   label:
     text: "@GabrielCoelho"
-    # icon: /laptop-coding.png
+    icon: /laptop-coding.png
     iconHeight: 35
 
   # profile-mode
