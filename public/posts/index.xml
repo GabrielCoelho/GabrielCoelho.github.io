@@ -21,13 +21,6 @@
       <description>Primeiro post deste novo blog, contando sobre minhas expectativas para o ano de 2025 e uma breve explicação do blog em si</description>
     </item>
     <item>
-      <title>Cálculo I - Aula 01</title>
-      <link>http://localhost:1313/posts/mca-001/</link>
-      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mca-001/</guid>
-      <description>Resumo/anotação da aula de MCA002</description>
-    </item>
-    <item>
       <title>Matemática Discreta - Aula 07</title>
       <link>http://localhost:1313/posts/mmd-007/</link>
       <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
