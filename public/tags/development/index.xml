@@ -21,6 +21,13 @@
       <description>Primeiro post deste novo blog, contando sobre minhas expectativas para o ano de 2025 e uma breve explicação do blog em si</description>
     </item>
     <item>
+      <title>Banco de Dados - Aula 01</title>
+      <link>http://localhost:1313/posts/ibd-001/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ibd-001/</guid>
+      <description>Anotações preparatórias e da aula de IBD002</description>
+    </item>
+    <item>
       <title>Classificação e Curva ABC</title>
       <link>http://localhost:1313/posts/aag-005/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
