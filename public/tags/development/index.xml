@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.140.2</generator>
     <language>pt-br</language>
-    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como utilizar suas anotações</title>
+      <link>http://localhost:1313/posts/how-pkm-helped-me/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-pkm-helped-me/</guid>
+      <description>Um breve guia de como utilizar as anotações de maneira eficiente. Realizei os passos desse guia e consegui 94% de acerto em uma prova.</description>
+    </item>
     <item>
       <title>Um novo ano...</title>
       <link>http://localhost:1313/posts/1st/</link>
@@ -21,11 +28,46 @@
       <description>Primeiro post deste novo blog, contando sobre minhas expectativas para o ano de 2025 e uma breve explicação do blog em si</description>
     </item>
     <item>
-      <title>Banco de Dados - Aula 01</title>
+      <title>Banco de Dados - Exercícios SQL</title>
+      <link>http://localhost:1313/posts/ibd-003/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ibd-003/</guid>
+      <description>Aprofundando no conhecimento de Banco de Dados e SQL - IBD002</description>
+    </item>
+    <item>
+      <title>Banco de Dados - Aula 05-09</title>
+      <link>http://localhost:1313/posts/ibd-002/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ibd-002/</guid>
+      <description>Aprofundando no conhecimento de Banco de Dados e SQL - IBD002</description>
+    </item>
+    <item>
+      <title>Banco de Dados - Aula 01-04</title>
       <link>http://localhost:1313/posts/ibd-001/</link>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/ibd-001/</guid>
       <description>Anotações preparatórias e da aula de IBD002</description>
+    </item>
+    <item>
+      <title>Engenharia de Software I - Aula 03</title>
+      <link>http://localhost:1313/posts/ies1-003/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ies1-003/</guid>
+      <description>Modelos de Processos de Desenvolvimento de Software</description>
+    </item>
+    <item>
+      <title>Engenharia de Software I - Aula 02</title>
+      <link>http://localhost:1313/posts/ies1-002/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ies1-002/</guid>
+      <description>Métodos de desenvolvimento</description>
+    </item>
+    <item>
+      <title>Engenharia de Software I - Aula 01</title>
+      <link>http://localhost:1313/posts/ies1-001/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ies1-001/</guid>
+      <description>O que é Software?</description>
     </item>
     <item>
       <title>Classificação e Curva ABC</title>

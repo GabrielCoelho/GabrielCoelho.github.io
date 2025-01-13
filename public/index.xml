@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.140.2</generator>
     <language>pt-br</language>
-    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GUI com Java Swing</title>
+      <link>http://localhost:1313/posts/java-swing-components/</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/java-swing-components/</guid>
+      <description>Uma breve anotação sobre cada componente do pacote Java Swing</description>
+    </item>
     <item>
       <title>Um novo ano...</title>
       <link>http://localhost:1313/posts/1st/</link>
@@ -40,6 +47,13 @@
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/ibd-001/</guid>
       <description>Anotações preparatórias e da aula de IBD002</description>
+    </item>
+    <item>
+      <title>Engenharia de Software I - Aula 03</title>
+      <link>http://localhost:1313/posts/ies1-003/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ies1-003/</guid>
+      <description>Modelos de Processos de Desenvolvimento de Software</description>
     </item>
     <item>
       <title>Engenharia de Software I - Aula 02</title>

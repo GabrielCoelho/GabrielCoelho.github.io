@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.140.2</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 31 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Como utilizar suas anotações</title>
+      <link>http://localhost:1313/posts/how-pkm-helped-me/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-pkm-helped-me/</guid>
+      <description>Um breve guia de como utilizar as anotações de maneira eficiente. Realizei os passos desse guia e consegui 94% de acerto em uma prova.</description>
+    </item>
     <item>
       <title>Matemática Discreta - Aula 07</title>
       <link>http://localhost:1313/posts/mmd-007/</link>
