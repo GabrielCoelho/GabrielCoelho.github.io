@@ -30,7 +30,7 @@ enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's g
 [markup]
   [markup.highlight]
     noClasses = false
-    style = 'tokyonight-night'
+    style = 'gruvbox'
 
   [markup.goldmark]
     [markup.goldmark.parser]

@@ -1,4 +1,213 @@
 {
-  "graph": {},
-  "pages": {}
+  "graph": {
+    "/notes/aag-001/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/aag-002/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/aag-003/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/aag-004/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/aag-005/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/ial002-aula03/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/ial002-aulas1-e-2/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/ibd-001/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/ibd-002/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/ibd-003/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/ies1-001/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/ies1-002/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/ies1-003/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/java-swing-components/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/mmd-001/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/mmd-002/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/mmd-003/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/mmd-004/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/mmd-005/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/mmd-006/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/mmd-007/": {
+      "in": [],
+      "out": []
+    },
+    "/notes/mmd-008/": {
+      "in": [],
+      "out": []
+    },
+    "/posts/1st/": {
+      "in": [],
+      "out": []
+    }
+  },
+  "pages": {
+    "/notes/aag-001/": {
+      "permalink": "/notes/aag-001/",
+      "section": "notes",
+      "title": "Introdução À Administração Geral"
+    },
+    "/notes/aag-002/": {
+      "permalink": "/notes/aag-002/",
+      "section": "notes",
+      "title": "Fordismo E Toyotismo"
+    },
+    "/notes/aag-003/": {
+      "permalink": "/notes/aag-003/",
+      "section": "notes",
+      "title": "Just in Time E Kanban"
+    },
+    "/notes/aag-004/": {
+      "permalink": "/notes/aag-004/",
+      "section": "notes",
+      "title": "Cálculo TPM"
+    },
+    "/notes/aag-005/": {
+      "permalink": "/notes/aag-005/",
+      "section": "notes",
+      "title": "Classificação E Curva ABC"
+    },
+    "/notes/ial002-aula03/": {
+      "permalink": "/notes/ial002-aula03/",
+      "section": "notes",
+      "title": "Aprendendo Algoritmos Em C"
+    },
+    "/notes/ial002-aulas1-e-2/": {
+      "permalink": "/notes/ial002-aulas1-e-2/",
+      "section": "notes",
+      "title": "Introdução À Lógica De Programação"
+    },
+    "/notes/ibd-001/": {
+      "permalink": "/notes/ibd-001/",
+      "section": "notes",
+      "title": "Banco De Dados - Aula 01-04"
+    },
+    "/notes/ibd-002/": {
+      "permalink": "/notes/ibd-002/",
+      "section": "notes",
+      "title": "Banco De Dados - Aula 05-09"
+    },
+    "/notes/ibd-003/": {
+      "permalink": "/notes/ibd-003/",
+      "section": "notes",
+      "title": "Banco De Dados - Exercícios SQL"
+    },
+    "/notes/ies1-001/": {
+      "permalink": "/notes/ies1-001/",
+      "section": "notes",
+      "title": "Engenharia De Software I - Aula 01"
+    },
+    "/notes/ies1-002/": {
+      "permalink": "/notes/ies1-002/",
+      "section": "notes",
+      "title": "Engenharia De Software I - Aula 02"
+    },
+    "/notes/ies1-003/": {
+      "permalink": "/notes/ies1-003/",
+      "section": "notes",
+      "title": "Engenharia De Software I - Aula 03"
+    },
+    "/notes/java-swing-components/": {
+      "permalink": "/notes/java-swing-components/",
+      "section": "notes",
+      "title": "GUI Com Java Swing"
+    },
+    "/notes/mmd-001/": {
+      "permalink": "/notes/mmd-001/",
+      "section": "notes",
+      "title": "Matemática Discreta - Aula 01"
+    },
+    "/notes/mmd-002/": {
+      "permalink": "/notes/mmd-002/",
+      "section": "notes",
+      "title": "Matemática Discreta - Aula 02"
+    },
+    "/notes/mmd-003/": {
+      "permalink": "/notes/mmd-003/",
+      "section": "notes",
+      "title": "Matemática Discreta - Aula 03"
+    },
+    "/notes/mmd-004/": {
+      "permalink": "/notes/mmd-004/",
+      "section": "notes",
+      "title": "Matemática Discreta - Aula 04"
+    },
+    "/notes/mmd-005/": {
+      "permalink": "/notes/mmd-005/",
+      "section": "notes",
+      "title": "Matemática Discreta - Aula 05"
+    },
+    "/notes/mmd-006/": {
+      "permalink": "/notes/mmd-006/",
+      "section": "notes",
+      "title": "Matemática Discreta - Aula 06"
+    },
+    "/notes/mmd-007/": {
+      "permalink": "/notes/mmd-007/",
+      "section": "notes",
+      "title": "Matemática Discreta - Aula 07"
+    },
+    "/notes/mmd-008/": {
+      "permalink": "/notes/mmd-008/",
+      "section": "notes",
+      "title": ""
+    },
+    "/posts/1st/": {
+      "permalink": "/posts/1st/",
+      "section": "posts",
+      "title": "Um Novo Ano..."
+    }
+  }
 }

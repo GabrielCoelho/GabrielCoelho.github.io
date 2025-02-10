@@ -1,0 +1,755 @@
+<!doctype html>
+<html
+  lang="pt-br"
+  dir="ltr"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<meta name="language" content="en" />
+<meta name="viewport" content="width=device-width" />
+<title>
+    Engenharia de Software I - Aula 01 | Gabrel Coelho Soares
+</title>
+  <meta name="description" content="O que é Software?" />
+  <meta name="author" content="Gabriel Coelho Soares" />
+<meta property="og:url" content="http://localhost:1313/posts/ies1-001/">
+  <meta property="og:site_name" content="Gabrel Coelho Soares">
+  <meta property="og:title" content="Engenharia de Software I - Aula 01">
+  <meta property="og:description" content="O que é Software?">
+  <meta property="og:locale" content="pt_br">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-02-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-02-19T00:00:00+00:00">
+    <meta property="article:tag" content="Development">
+    <meta property="article:tag" content="Ies100">
+
+
+  <meta itemprop="name" content="Engenharia de Software I - Aula 01">
+  <meta itemprop="description" content="O que é Software?">
+  <meta itemprop="datePublished" content="2024-02-19T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2024-02-19T00:00:00+00:00">
+  <meta itemprop="wordCount" content="981">
+  <meta itemprop="keywords" content="Development,Ies100">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Engenharia de Software I - Aula 01">
+  <meta name="twitter:description" content="O que é Software?">
+
+<link rel="canonical" href="http://localhost:1313/posts/ies1-001/" />
+
+    <link rel="stylesheet" href="/css/index.css" />
+
+
+      <script src="/js/main.js" defer></script>
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@id": "http://localhost:1313/posts/ies1-001/",
+  "@type": "BlogPosting",
+  "articleSection": [
+    "Ads-Fatec"
+  ],
+  "copyrightNotice": "Gabriel Coelho Soares",
+  "datePublished": "2024-02-19",
+  "description": "O que é Software?",
+  "headline": "Engenharia De Software I - Aula 01",
+  "isPartOf": {
+    "@id": "http://localhost:1313/posts/",
+    "@type": "Blog",
+    "name": "Posts"
+  },
+  "keywords": [
+    "Development",
+    "Ies100"
+  ],
+  "mainEntityOfPage": "http://localhost:1313/posts/ies1-001/",
+  "name": "Engenharia De Software I - Aula 01",
+  "timeRequired": "PT5M",
+  "url": "http://localhost:1313/posts/ies1-001/",
+  "wordCount": 981
+}
+</script>
+
+
+  </head>
+  <body>
+    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
+      <header class="flex flex-row items-center justify-between">
+        <div>
+  <a id="skip-nav" class="sr-only" href="#maincontent">Skip to main content</a>
+  <a class="font-semibold" href="/">Gabrel Coelho Soares</a>
+</div>
+
+  <nav>
+    <ul class="flex flex-row items-center justify-end space-x-4">
+    <li>
+      <a href="/notes/">Notes</a
+      >
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Posts</a
+      >
+    </li>
+    <li>
+      <a href="/graph/">Graph</a
+      >
+    </li>
+    </ul>
+  </nav>
+
+
+      </header>
+      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
+        <article class="main">
+    <header>
+      <h1 class="!mb-1">Engenharia De Software I - Aula 01</h1><div class="flex flex-row items-center space-x-4">
+          <time class="text-sm italic opacity-80" datetime="2024-02-19T00:00:00&#43;00:00"
+            >February 19, 2024</time
+          >
+        </div>
+    </header>
+
+    <h3 id="o-que-é-software" class="scroll-mt-8 group">
+  O Que é software?
+  
+    <a href="#o-que-%c3%a9-software"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<blockquote>
+<p>[!quote] Pressman
+Software consiste em: (1) Instruções que, quando executadas, fornecem características, funções e desempenho desejados; (2) estruturas de dados que possibilitam aos programas manipular informações adequadamente; e (3) informação descritiva, tanto na forma impressa como na virtual, descrevendo a operação e o uso dos programas.</p></blockquote>
+<p>O Software, além do programa em si, é também a junção da documentação e a sua configuração final.</p>
+<p>As <strong>Instruções</strong>, ou Algoritmo, fazem parte das questões lógicas relacionadas ao programa, sendo programas determinísticos ou heurísticos. As <strong>Estruturas de dados</strong> possibilitam que o programa manipule informação adequadamente.</p>
+<p>A <strong>Documentação</strong> descreve todas as operações e o uso correto do programa desenvolvido.</p>
+<p>A <strong>Configuração</strong> é parte final do Software, onde instalamos e configuramos o programa para o sistema do cliente, garantindo o suporte e vida útil do programa.</p>
+<h4 id="softwares-genéricos-x-personalizados" class="scroll-mt-8 group">
+  Softwares Genéricos x Personalizados
+  
+    <a href="#softwares-gen%c3%a9ricos-x-personalizados"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>Há empresas que empregam desenvolvedores afim de criarem Softwares Genéricos, que são produzidos para o mercado em si, como os Navegadores, os programas do Pacote Office, entre outros.</p>
+<p>Já, outras empresas, empregam desenvolvedores afim de criar Softwares personalizados para uma terceira empresa que contratou o serviço. Como um Site de uma loja, um programa de vendas de um supermercado, entre outros.</p>
+<h3 id="processo-de-desenvolvimento" class="scroll-mt-8 group">
+  Processo de Desenvolvimento
+  
+    <a href="#processo-de-desenvolvimento"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<p>Normalmente o processo passa por algumas etapas, iniciando pela <strong>especificação</strong>, depois de coletar todas as informações, nós desenhamos o <strong>projeto</strong>, realizando diversos designs. Depois seguimos para <strong>implementação</strong> que é o momento de por a mão no código. Por fim, chegamos na <strong>validação</strong> que será o momento de questionar se todas as questões analisadas na especificação foram atendidas e, em caso positivo, a <strong>entrega e evolução</strong>.</p>
+<p>Todas estas atividades têm por base o apoio e a gestão, que irão garantir que este processo será executado na qualidade esperada.</p>
+<h4 id="atividades-do-processo" class="scroll-mt-8 group">
+  Atividades do processo
+  
+    <a href="#atividades-do-processo"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>São as tarefas realizadas em cada uma das partes do processo, que definem os trabalhos a serem executadas para atingir o objetivo final do projeto.</p>
+<p>Como visto na aula passada, ainda que de modo superficial, foi o seguinte:
+![[Aula 01 - IES100#O Processo de Software]]</p>
+<h5 id="comunicação" class="scroll-mt-8 group">
+  Comunicação
+  
+    <a href="#comunica%c3%a7%c3%a3o"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>É uma fase bem inicial do projeto, pois utilizamos sobretudo para entender o problema que o cliente está nos trazendo para que possamos desenvolver uma solução para ele. Não somente com ele, mas também com todas as partes interessadas no projeto.</p>
+<p>Mais à frente, também, como vimos, na hora da validação, é imprescindível que a comunicação esteja presente, sobretudo para explicar a solução desenvolvida à todas as partes interessadas.</p>
+<blockquote>
+<p>Por parte interessada entende-se toda pessoa ou organização que impactam ou podem ser impactada pelo projeto. O Cliente e a equipe presente no projeto são, sempre, partes interessadas. Em inglês, o termo utilizado é <em>stakeholder</em> e, em grandes projetos, os <em>sponsors</em> que investirão o dinheiro.</p></blockquote>
+<h5 id="planejamento" class="scroll-mt-8 group">
+  Planejamento
+  
+    <a href="#planejamento"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>É mais explorada na gestão de projetos, mas é utilizada em engenharia de software para planejar a partir de estimativas futuras sobre plano de trabalho, sobre prazo e custo, sobre a elaboração do cronograma e, sobretudo, na atribuição das atividades.</p>
+<p>Utiliza-se da primeira atividade ([[#Comunicação]]) para entender as indagações do cliente e informá-lo, em grande parte, o custo e tempo, que, afinal, é o que importam para ele.</p>
+<p>Quanto maior os detalhes que temos sobre o projeto, ou seja, quanto melhor comunicarmos com o cliente, melhor serão as estimativas e o cumprimento dos prazos a partir de um plano de ação bem traçado.</p>
+<h5 id="modelagem" class="scroll-mt-8 group">
+  Modelagem
+  
+    <a href="#modelagem"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>É o momento de &ldquo;traduzir&rdquo; as informações textuais ou verbais em modelos, fluxogramas, anagramas que facilitarão na visualização do projeto finalizado para uma melhor construção de software.</p>
+<h5 id="construção" class="scroll-mt-8 group">
+  Construção
+  
+    <a href="#constru%c3%a7%c3%a3o"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>Transformação do modelo em software executável e execução de testes.</p>
+<h5 id="implantação" class="scroll-mt-8 group">
+  Implantação
+  
+    <a href="#implanta%c3%a7%c3%a3o"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>Entrega ou liberação do produto, juntamente com a instalação e treinamento dos funcionários do cliente, bem como a manutenção futura conforme necessário.</p>
+<h4 id="desafios-de-desenvolver-softwares" class="scroll-mt-8 group">
+  Desafios de desenvolver softwares
+  
+    <a href="#desafios-de-desenvolver-softwares"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>Alguns <strong>desafios</strong> na programação, criação e governança de projetos de Software são as necessidades de Segurança, desempenho e disponibilidade. Não obstante, atender as expectativas do cliente é algo que deve ser levado em conta sempre, pois hoje o cliente pode pedir $x$ e amanhã já querer $y$.</p>
+<blockquote>
+<p>[!quote] VUCA
+Volatility, Uncertainty, Complexity, Ambiguity
+Volatilidade, incerteza, complexidade e ambiguidade</p></blockquote>
+<h3 id="o-que-é-engenharia-de-software" class="scroll-mt-8 group">
+  O que é Engenharia de Software
+  
+    <a href="#o-que-%c3%a9-engenharia-de-software"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<p>Uma abordagem <strong>sistemática, disciplinada e quantificável</strong>. Está relacionada a todos os aspectos da produção, do desenvolvimento de um software, até que o sistema desenvolvido deixe de ser operacional.</p>
+<p>O principal objetivo do Estudo da Engenharia de Software é alcançar a qualidade para sanar a satisfação do cliente dentro das restrições dos prazos e custos pré determinados.</p>
+<p>Qualquer abordagem de engenharia deve se fundamentar na <strong>qualidade</strong>.</p>
+<p>O <strong>processo</strong> é a liga que mantém as camadas de tecnologia coesas e possibilita o desenvolvimento de forma racional e dentro do prazo.</p>
+<p>Os <strong>métodos</strong> fornecem as informações técnicas para desenvolver o software, e baseiam-se num conjunto de princípios básicos, incluindo atividades de modelagem e outras técnicas descritivas.</p>
+<p>As <strong>ferramentas</strong> fornecem o suporte automatizado ou semiautomatizado para o processo e para os métodos.</p>
+<hr>
+<p>Falando de <strong>qualidade</strong>, existem alguns atributos ou aspectos que são desejáveis nos softwares. Um pequeno exemplo é a compra de um novo smartphone, onde buscamos, como clientes, aquelas características que nos são desejáveis a depender do tipo de uso que teremos, buscamos sempre aquele aparelho que obtenha o maior número de qualidades possíveis.</p>
+<p>Quanto à Software, temos alguns atributos de qualidade:</p>
+<ul>
+<li>Corretude;</li>
+<li>Confiabilidade;</li>
+<li>Robustez;</li>
+<li>Portabilidade;</li>
+<li>Manutenabilidade;</li>
+<li>e outros&hellip;</li>
+</ul>
+<h4 id="o-processo-de-software" class="scroll-mt-8 group">
+  O Processo de Software
+  
+    <a href="#o-processo-de-software"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>O processo de criação de Software, como um conjunto de atividades, ações ou tarefas, é utilizada independente de campo de aplicação, do tamanho do projeto ou da complexidade de esforços.</p>
+<p>Assim, estabelece-se uma metodologia para ser um alicerce, um molde, a partir de atividades estruturais e que compreende cinco atividades:</p>
+<ul>
+<li>Comunicação;</li>
+<li>Planejamento;</li>
+<li>Modelagem;</li>
+<li>Construção;</li>
+<li>Implantação.</li>
+</ul>
+<blockquote>
+<p>[!important] Importante
+<strong>Implantação</strong> é diferente de <strong>Implementação</strong>. Implantação pode ter o nome de <strong>Emprego</strong>. É a fase final de <strong>entrega</strong> do software final ou de um incremento parcialmente efetivado, ao cliente, que irá avaliar o produto e fornecerá feedbacks.</p></blockquote>
+
+  </article>
+    <aside class="not-prose flex flex-col space-y-8 border-t pt-6">
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-shapes h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z"
+  />
+  <rect width="7" height="7" x="3" y="14" rx="1" />
+  <circle cx="17.5" cy="17.5" r="3.5" />
+</svg>
+
+        <span>Categories</span>
+      </h2>
+
+      <ul class="ml-6 flex flex-row flex-wrap items-center space-x-2">
+          <li>
+            <a href="/categories/ads-fatec/" class="taxonomy category">ads-fatec</a>
+          </li>
+      </ul>
+    </section>
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-tags h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path d="m15 5 6.3 6.3a2.4 2.4 0 0 1 0 3.4L17 19" />
+  <path
+    d="M9.586 5.586A2 2 0 0 0 8.172 5H3a1 1 0 0 0-1 1v5.172a2 2 0 0 0 .586 1.414L8.29 18.29a2.426 2.426 0 0 0 3.42 0l3.58-3.58a2.426 2.426 0 0 0 0-3.42z"
+  />
+  <circle cx="6.5" cy="9.5" r=".5" fill="currentColor" />
+</svg>
+
+        <span>Tags</span>
+      </h2>
+
+      <ul class="not-prose ml-6 flex flex-row flex-wrap items-center space-x-2">
+          <li>
+            <a href="/tags/development/" class="taxonomy tag">development</a>
+          </li>
+          <li>
+            <a href="/tags/ies100/" class="taxonomy tag">ies100</a>
+          </li>
+      </ul>
+    </section>
+    <section class="flex flex-col space-y-4" aria-hidden="true">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-chart-network h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="m13.11 7.664 1.78 2.672M14.162 12.788l-3.324 1.424M20 4l-6.06 1.515M3 3v16a2 2 0 0 0 2 2h16"
+  />
+  <circle cx="12" cy="6" r="2" />
+  <circle cx="16" cy="12" r="2" />
+  <circle cx="9" cy="15" r="2" />
+</svg>
+
+        <span>Graph</span>
+      </h2>
+
+      <content-network-graph
+  class="h-64 ml-6"
+  data-endpoint="/graph/index.json"
+  page="/posts/ies1-001/"
+></content-network-graph>
+
+    </section>
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-newspaper h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2M18 14h-8M15 18h-5"
+  />
+  <path d="M10 6h8v4h-8V6Z" />
+</svg>
+
+        <span>Posts</span>
+      </h2>
+        <section class="flex flex-col space-y-1">
+          <h3 class="flex flex-row items-center space-x-2 text-sm font-semibold">
+            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 256 256"
+  class="h-4 w-4"
+  aria-hidden="true"
+>
+  <path
+    fill="currentColor"
+    d="M222.16 153.26a8 8 0 0 1-1 11.25c-17.36 14.38-32.86 19.49-47 19.49-18.58 0-34.82-8.81-49.93-17-25.35-13.75-47.24-25.63-79.07.74a8 8 0 1 1-10.22-12.3c40.17-33.27 70.32-16.92 96.93-2.48 25.35 13.75 47.24 25.62 79.07-.75a8 8 0 0 1 11.22 1.05m-177-49.46c31.83-26.37 53.72-14.5 79.07-.75 15.11 8.2 31.35 17 49.93 17 14.14 0 29.64-5.11 47-19.49a8 8 0 1 0-10.22-12.3c-31.83 26.37-53.72 14.49-79.07.74-26.61-14.43-56.76-30.79-96.93 2.48a8 8 0 0 0 10.17 12.32Z"
+  />
+</svg>
+
+            <span>Related</span>
+          </h3>
+
+          <ol class="not-prose ml-6">
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/posts/aag-005/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Classificação e Curva ABC"
+              >Classificação E Curva ABC</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/posts/aag-004/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Cálculo TPM"
+              >Cálculo TPM</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/posts/aag-003/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Just In Time e Kanban"
+              >Just in Time E Kanban</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/posts/aag-002/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Fordismo e Toyotismo"
+              >Fordismo E Toyotismo</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/posts/ial002-aula03/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Aprendendo algoritmos em C"
+              >Aprendendo Algoritmos Em C</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+</ol>
+
+        </section>
+    </section>
+</aside>
+
+
+      </main>
+      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+        <section class="items-top flex flex-row justify-between opacity-70">
+  <div class="flex flex-col space-y-2">
+      <p>Copyright &copy; 2025, Gabriel Coelho Soares.</p>
+
+  </div>
+    <div>
+      <a
+        href="https://github.com/michenriksen/hugo-theme-til"
+        title="Today I Learned &#8212; A Hugo theme by Michael Henriksen"
+        data-theme-version="0.6.0"
+        >theme: til</a
+      >
+    </div>
+</section>
+
+      </footer>
+    </div>
+    
+  </body>
+</html>

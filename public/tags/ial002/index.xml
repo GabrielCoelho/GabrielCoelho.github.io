@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ial002 on Gabrel Coelho Soares</title>
+    <link>http://localhost:1313/tags/ial002/</link>
+    <description>Recent content in Ial002 on Gabrel Coelho Soares</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <copyright>Gabriel Coelho Soares</copyright>
+    <lastBuildDate>Fri, 25 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ial002/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aprendendo algoritmos em C</title>
+      <link>http://localhost:1313/notes/ial002-aula03/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/ial002-aula03/</guid>
+      <description>&lt;h2 id=&#34;algoritmos-em-c&#34; class=&#34;scroll-mt-8 group&#34;&gt;&#xA;  Algoritmos em C&#xA;  &#xA;    &lt;a href=&#34;#algoritmos-em-c&#34;&#xA;        class=&#34;no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block&#34;&#xA;        aria-hidden=&#34;true&#34; title=&#34;Link to this heading&#34; tabindex=&#34;-1&#34;&gt;&#xA;        &lt;svg&#xA;  xmlns=&#34;http://www.w3.org/2000/svg&#34;&#xA;  width=&#34;16&#34;&#xA;  height=&#34;16&#34;&#xA;  fill=&#34;none&#34;&#xA;  stroke=&#34;currentColor&#34;&#xA;  stroke-linecap=&#34;round&#34;&#xA;  stroke-linejoin=&#34;round&#34;&#xA;  stroke-width=&#34;2&#34;&#xA;  class=&#34;lucide lucide-link w-4 h-4 block&#34;&#xA;  viewBox=&#34;0 0 24 24&#34;&#xA;&gt;&#xA;  &lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; /&gt;&#xA;  &lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; /&gt;&#xA;&lt;/svg&gt;&#xA;&#xA;    &lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;C tem várias funções. Para que o C reconheça essas funções, precisamos iniciar os algoritmos com &lt;code&gt;include &amp;lt;stdio.h&amp;gt;&lt;/code&gt;.&#xA;Com isso, o programa em C irá receber as funções principais, como o &amp;ldquo;leia&amp;rdquo;, &amp;ldquo;escreva&amp;rdquo; do portugol.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introdução à Lógica de Programação</title>
+      <link>http://localhost:1313/notes/ial002-aulas1-e-2/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/ial002-aulas1-e-2/</guid>
+      <description>&lt;h2 id=&#34;ial002&#34; class=&#34;scroll-mt-8 group&#34;&gt;&#xA;  IAL002&#xA;  &#xA;    &lt;a href=&#34;#ial002&#34;&#xA;        class=&#34;no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block&#34;&#xA;        aria-hidden=&#34;true&#34; title=&#34;Link to this heading&#34; tabindex=&#34;-1&#34;&gt;&#xA;        &lt;svg&#xA;  xmlns=&#34;http://www.w3.org/2000/svg&#34;&#xA;  width=&#34;16&#34;&#xA;  height=&#34;16&#34;&#xA;  fill=&#34;none&#34;&#xA;  stroke=&#34;currentColor&#34;&#xA;  stroke-linecap=&#34;round&#34;&#xA;  stroke-linejoin=&#34;round&#34;&#xA;  stroke-width=&#34;2&#34;&#xA;  class=&#34;lucide lucide-link w-4 h-4 block&#34;&#xA;  viewBox=&#34;0 0 24 24&#34;&#xA;&gt;&#xA;  &lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; /&gt;&#xA;  &lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; /&gt;&#xA;&lt;/svg&gt;&#xA;&#xA;    &lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Primeiro contato será o acordo do semestre, tendo em vista a ementa → quais serão os tópicos abordados até o último dia.  Se não existem regras estabelecidas, nós como humanos teremos a tendência à vitimizar por n motivos, sejam eles quais forem. Numa empresa, por exemplo, se não tem regra estabelecida, às vezes, alguém que trabalhe menos que você mas esteja numa outra função, ganhe mais fazendo menos que você. E aí entramos no mundo da abstração e passamos a pensar diversas besteiras → mas tudo isso acontece pois não foram estabelecidas boas regras; ou melhor, que se tiveram, não foram cumpridas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

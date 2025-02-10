@@ -1,0 +1,746 @@
+<!doctype html>
+<html
+  lang="pt-br"
+  dir="ltr"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<meta name="language" content="en" />
+<meta name="viewport" content="width=device-width" />
+<title>
+    Matemática Discreta - Aula 02 | Gabrel Coelho Soares
+</title>
+  <meta name="description" content="Resumo/anotação da aula de MMD002" />
+  <meta name="author" content="Gabriel Coelho Soares" />
+<meta property="og:url" content="http://localhost:1313/notes/mmd-002/">
+  <meta property="og:site_name" content="Gabrel Coelho Soares">
+  <meta property="og:title" content="Matemática Discreta - Aula 02">
+  <meta property="og:description" content="Resumo/anotação da aula de MMD002">
+  <meta property="og:locale" content="pt_br">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="notes">
+    <meta property="article:published_time" content="2023-08-15T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-08-15T00:00:00+00:00">
+    <meta property="article:tag" content="Notes">
+    <meta property="article:tag" content="Mmd002">
+
+
+  <meta itemprop="name" content="Matemática Discreta - Aula 02">
+  <meta itemprop="description" content="Resumo/anotação da aula de MMD002">
+  <meta itemprop="datePublished" content="2023-08-15T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-08-15T00:00:00+00:00">
+  <meta itemprop="wordCount" content="699">
+  <meta itemprop="keywords" content="Notes,Mmd002">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Matemática Discreta - Aula 02">
+  <meta name="twitter:description" content="Resumo/anotação da aula de MMD002">
+
+<link rel="canonical" href="http://localhost:1313/notes/mmd-002/" />
+
+    <link rel="stylesheet" href="/css/index.css" />
+
+
+      <script src="/js/main.js" defer></script>
+  
+
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
+  integrity="sha256-cXvJrnhTth8PdkVd3fDs1PUnp4P0LeKsJGhImcHEYlg="
+  crossorigin="anonymous"
+/>
+<script
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"
+  integrity="sha256-5r/l3uvUx8zScgVbq2O9OrLHO5B7bmoi01J0CoE4H9Q="
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+  integrity="sha256-e1fUJ6xicGd9r42DgN7SzHMzb5FJoWe44f4NbvZmBK4="
+  crossorigin="anonymous"
+></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: '\\[', right: '\\]', display: true }, 
+        { left: '$$', right: '$$', display: true }, 
+        { left: '\\(', right: '\\)', display: false } 
+      ],
+      throwOnError: false
+    });
+  });
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@id": "http://localhost:1313/notes/mmd-002/",
+  "@type": "BlogPosting",
+  "articleSection": [
+    "Ads-Fatec"
+  ],
+  "copyrightNotice": "Gabriel Coelho Soares",
+  "datePublished": "2023-08-15",
+  "description": "Resumo/anotação da aula de MMD002",
+  "headline": "Matemática Discreta - Aula 02",
+  "isPartOf": {
+    "@id": "http://localhost:1313/notes/",
+    "@type": "Blog",
+    "name": "Notes"
+  },
+  "keywords": [
+    "Mmd002",
+    "Notes"
+  ],
+  "mainEntityOfPage": "http://localhost:1313/notes/mmd-002/",
+  "name": "Matemática Discreta - Aula 02",
+  "timeRequired": "PT4M",
+  "url": "http://localhost:1313/notes/mmd-002/",
+  "wordCount": 699
+}
+</script>
+
+
+  </head>
+  <body>
+    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
+      <header class="flex flex-row items-center justify-between">
+        <div>
+  <a id="skip-nav" class="sr-only" href="#maincontent">Skip to main content</a>
+  <a class="font-semibold" href="/">Gabrel Coelho Soares</a>
+</div>
+
+  <nav>
+    <ul class="flex flex-row items-center justify-end space-x-4">
+    <li>
+      <a aria-current="true" class="ancestor" href="/notes/">Notes</a
+      >
+    </li>
+    <li>
+      <a href="/posts/">Posts</a
+      >
+    </li>
+    <li>
+      <a href="/graph/">Graph</a
+      >
+    </li>
+    </ul>
+  </nav>
+
+
+      </header>
+      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
+        <article class="main">
+    <header>
+      <h1 class="!mb-1">Matemática Discreta - Aula 02</h1><div class="flex flex-row items-center space-x-4">
+          <time class="text-sm italic opacity-80" datetime="2023-08-15T00:00:00&#43;00:00"
+            >August 15, 2023</time
+          >
+        </div>
+    </header>
+
+    <h3 id="conteúdo-da-aula---teoria-de-conjuntos" class="scroll-mt-8 group">
+  Conteúdo da Aula - Teoria de Conjuntos
+  
+    <a href="#conte%c3%bado-da-aula---teoria-de-conjuntos"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<p>De forma usual, podemos dizer que um conjunto é como se fosse uma sacola que possui elementos dentro dela. De forma geral, um conjunto é denotado por letras maiúsculas como 𝐴, 𝐵, 𝐶, dentre outras, e os elementos são alocados entre chaves para a formação deste conjunto.</p>
+<p>$A ={1,2,3,4,\dots} \quad B={1,2,3,\dots,10}$</p>
+<ul>
+<li>Os conjuntos podem ser infinitos ou finitos. A representação deles muda conforme o exemplo acima, onde A é infinito e B, finito.</li>
+<li>Os elementos pertencem a um conjunto. Assim, num outro exemplo de dias da semana, temos:
+$C={Segunda, terça, quarta, \dots, domingo}$</li>
+<li>E assim, podemos dizer: $sábado \in C$ que significa &ldquo;Sábado pertence a C&rdquo;.</li>
+<li>Os grupos podem ter subconjuntos. Seguindo no exemplo acima, escrevamos o <strong>subconjunto D que receba os dias de fim de semana</strong> $D={sábado, domingo}$. Com isso, podemos dizer que &ldquo;D está contido no grupo C&rdquo; → $D\subset C$</li>
+</ul>
+<h4 id="conjuntos-especiais" class="scroll-mt-8 group">
+  Conjuntos Especiais
+  
+    <a href="#conjuntos-especiais"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<ul>
+<li>
+<h7 id="conjunto-universo-ou-ômega" class="scroll-mt-8 group">
+  Conjunto Universo (ou Ômega)
+  
+    <a href="#conjunto-universo-ou-%c3%b4mega"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h7>
+<ul>
+<li>De alguma maneira el\e contém todas os elementos possíveis.</li>
+<li>Símbolo: $U \text{ ou }\  \Omega$</li>
+</ul>
+</li>
+<li>
+<h7 id="conjunto-vazio" class="scroll-mt-8 group">
+  Conjunto Vazio
+  
+    <a href="#conjunto-vazio"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h7>
+<ul>
+<li>Conjuntos que não contém nenhum valor.</li>
+<li>Símbolo: ${\} \text{  ou  }  \emptyset$</li>
+</ul>
+</li>
+<li>
+<h7 id="número-de-elementos" class="scroll-mt-8 group">
+  Número de elementos
+  
+    <a href="#n%c3%bamero-de-elementos"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h7>
+<ul>
+<li>Dado o conjunto $A$, o número de elementos é denotado por <strong>cardinalidade</strong></li>
+<li>Símbolo: $n(A) \text{ ou } #(A)$
+<ul>
+<li>Assim, no conjunto $A$ do primeiro exemplo, temos: $n(A)=7$</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="importante" class="scroll-mt-8 group">
+  Importante
+  
+    <a href="#importante"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<blockquote>
+<p>Conjuntos <strong>NUNCA</strong> <em>pertencem</em> a outro conjunto, mas estão contidos ou contém. Os elementos, por sua vez, pertencem a determinado conjunto.</p></blockquote>
+<h4 id="uniões" class="scroll-mt-8 group">
+  Uniões
+  
+    <a href="#uni%c3%b5es"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>$A \cup B ={x \in A \text{ ou } x \in B}$  ^7da842</p>
+<p>Exemplo:
+$A={2, 3, 4} \text{  e  } B={3,4,5,6,7}$
+Assim, $A \cup B = {2,3,4,5,6,7}$</p>
+<blockquote>
+<p>Importante notar, e gravar bem na cabeça, que estamos utilizando na lógica proposicional o <strong>OU</strong>, isto é, neste caso, estamos falando do que está em um, ou no outro: o todo dos conjuntos sem repetições.</p></blockquote>
+<p>![[Pasted image 20230815202020.png]]</p>
+<p>Podemos, em uniões, utilizar das mesmas outras questões. Assim dizendo: $n(A \cup B)=6$</p>
+<h4 id="intersecção-entre-conjuntos" class="scroll-mt-8 group">
+  Intersecção entre conjuntos
+  
+    <a href="#intersec%c3%a7%c3%a3o-entre-conjuntos"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>$A \cap B={x \in A \text {  e  } x \in B}$
+![[Pasted image 20230815202530.png]] ^2a349c</p>
+<blockquote>
+<p>Neste caso sim, ainda falando um pouco de lógia proposional, estamos utilizando o <strong>E</strong>, delimitando que o resultado de $A \cap B$ sejam <strong>somente</strong> os elementos que aparecem nos dois.</p></blockquote>
+<p>Exemplo:
+Determine $A\cap B$ do exemplo da [[#Uniões]]</p>
+<p>$$
+A\cap B={3,4}
+$$</p>
+<h4 id="diferença-entre-conjuntos" class="scroll-mt-8 group">
+  Diferença entre conjuntos
+  
+    <a href="#diferen%c3%a7a-entre-conjuntos"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>$A \setminus B ={x \in A \text{ e } x \notin B}$ ^16e840</p>
+<blockquote>
+<p>Isto é, algum elemento que esteja em um conjunto, <strong>e</strong> determinante <strong>não pode estar</strong> no outro conjunto.</p></blockquote>
+<p>Exemplo:
+$A={0,1,2} \quad B={1,2,3,4}$
+$A\setminus B = {0}$</p>
+<p>![[Pasted image 20230815204008.png]]</p>
+<h4 id="diferenças-simétricas" class="scroll-mt-8 group">
+  Diferenças Simétricas
+  
+    <a href="#diferen%c3%a7as-sim%c3%a9tricas"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<blockquote>
+<p>É o Conjunto de elementos que estão em um dos conjuntos (ou seja, a união de dois) mas que não estejam em sua intersecção:</p></blockquote>
+<p>símbolo: $A\Delta B \text{  ou  } A \oplus B$
+sendo: $A\Delta B=(A\cup B)\setminus (A \cap B)$ (Em português: A união dos dois conjuntos é tudo, mas estou tirando a intersecção $\iff$ podendo ser representado assim: $A\Delta B={(A\setminus B) \cup (B\setminus A)}$</p>
+<blockquote>
+<p>Ou seja, são os elementos que não são comuns a um E o outro.
+Assim, faça: $A \Delta B$</p></blockquote>
+<p>$$A={1,2,3,4} \quad B={2,3,4,5} \qquad A\Delta B={1,5}$$</p>
+<h4 id="conjunto-complementar" class="scroll-mt-8 group">
+  Conjunto Complementar
+  
+    <a href="#conjunto-complementar"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>Dado $A \subset \Omega$ , o que falta? Este que falta é o conjunto complementar. Representamos da seguinte maneira:
+$$
+A^c = \Omega  \setminus A
+$$
+Exemplo:
+$$
+\begin{align}
+\Omega={x \in \mathbb{Z} | 2 \lt x \le 8}  \
+\text{e} \
+A={5, 6, 7, 8} \ \text{determine } A^c
+\end{align}
+$$</p>
+<p>Assim, temos no enunciado que o Total, o $\Omega$, contém $x$ que pertence aos inteiros sendo que X tem de estar entre dois, até 8. (entre pois é maior que 2; até, pois o 8 está incluso no menor igual $\le$)</p>
+<p>Resultado: $A^c={3,4}$</p>
+<p>Uma outra representação de número complementar é a seguinte
+$$
+C_B^A = B \setminus A
+$$
+Assim, temos a seguinte sentença:</p>
+<blockquote>
+<p>Preciso encontrar o que falta em A para que ele se equipare a B, assim eu retiro de B o que tem em A e a sobra é o complementar de A em B. Meio louco, mas é interessante saber</p></blockquote>
+<h4 id="relação-entre-número-de-elementos-da-união-e-intersecção" class="scroll-mt-8 group">
+  Relação entre número de elementos da união e intersecção
+  
+    <a href="#rela%c3%a7%c3%a3o-entre-n%c3%bamero-de-elementos-da-uni%c3%a3o-e-intersec%c3%a7%c3%a3o"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>Para fazermos isso, devemos:
+$n(A \cup B) = n(A) + n(B) - n(A\cap B)$</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> #todo/pesquisar regra e exceção, falácia e paradoxo</li>
+</ul>
+
+  </article>
+    <aside class="not-prose flex flex-col space-y-8 border-t pt-6">
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-shapes h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z"
+  />
+  <rect width="7" height="7" x="3" y="14" rx="1" />
+  <circle cx="17.5" cy="17.5" r="3.5" />
+</svg>
+
+        <span>Categories</span>
+      </h2>
+
+      <ul class="ml-6 flex flex-row flex-wrap items-center space-x-2">
+          <li>
+            <a href="/categories/ads-fatec/" class="taxonomy category">ads-fatec</a>
+          </li>
+      </ul>
+    </section>
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-tags h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path d="m15 5 6.3 6.3a2.4 2.4 0 0 1 0 3.4L17 19" />
+  <path
+    d="M9.586 5.586A2 2 0 0 0 8.172 5H3a1 1 0 0 0-1 1v5.172a2 2 0 0 0 .586 1.414L8.29 18.29a2.426 2.426 0 0 0 3.42 0l3.58-3.58a2.426 2.426 0 0 0 0-3.42z"
+  />
+  <circle cx="6.5" cy="9.5" r=".5" fill="currentColor" />
+</svg>
+
+        <span>Tags</span>
+      </h2>
+
+      <ul class="not-prose ml-6 flex flex-row flex-wrap items-center space-x-2">
+          <li>
+            <a href="/tags/notes/" class="taxonomy tag">notes</a>
+          </li>
+          <li>
+            <a href="/tags/mmd002/" class="taxonomy tag">mmd002</a>
+          </li>
+      </ul>
+    </section>
+    <section class="flex flex-col space-y-4" aria-hidden="true">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-chart-network h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="m13.11 7.664 1.78 2.672M14.162 12.788l-3.324 1.424M20 4l-6.06 1.515M3 3v16a2 2 0 0 0 2 2h16"
+  />
+  <circle cx="12" cy="6" r="2" />
+  <circle cx="16" cy="12" r="2" />
+  <circle cx="9" cy="15" r="2" />
+</svg>
+
+        <span>Graph</span>
+      </h2>
+
+      <content-network-graph
+  class="h-64 ml-6"
+  data-endpoint="/graph/index.json"
+  page="/notes/mmd-002/"
+></content-network-graph>
+
+    </section>
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-notebook-text h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path d="M2 6h4M2 10h4M2 14h4M2 18h4" />
+  <rect width="16" height="20" x="4" y="2" rx="2" />
+  <path d="M9.5 8h5M9.5 12H16M9.5 16H14" />
+</svg>
+
+        <span>Notes</span>
+      </h2>
+        <section class="flex flex-col space-y-1">
+          <h3 class="flex flex-row items-center space-x-2 text-sm font-semibold">
+            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 256 256"
+  class="h-4 w-4"
+  aria-hidden="true"
+>
+  <path
+    fill="currentColor"
+    d="M222.16 153.26a8 8 0 0 1-1 11.25c-17.36 14.38-32.86 19.49-47 19.49-18.58 0-34.82-8.81-49.93-17-25.35-13.75-47.24-25.63-79.07.74a8 8 0 1 1-10.22-12.3c40.17-33.27 70.32-16.92 96.93-2.48 25.35 13.75 47.24 25.62 79.07-.75a8 8 0 0 1 11.22 1.05m-177-49.46c31.83-26.37 53.72-14.5 79.07-.75 15.11 8.2 31.35 17 49.93 17 14.14 0 29.64-5.11 47-19.49a8 8 0 1 0-10.22-12.3c-31.83 26.37-53.72 14.49-79.07.74-26.61-14.43-56.76-30.79-96.93 2.48a8 8 0 0 0 10.17 12.32Z"
+  />
+</svg>
+
+            <span>Related</span>
+          </h3>
+
+          <ol class="not-prose ml-6">
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-001/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 01"
+              >Matemática Discreta - Aula 01</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/aag-001/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Introdução à Administração Geral"
+              >Introdução À Administração Geral</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+</ol>
+
+        </section>
+    </section>
+</aside>
+
+
+      </main>
+      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+        <section class="items-top flex flex-row justify-between opacity-70">
+  <div class="flex flex-col space-y-2">
+      <p>Copyright &copy; 2025, Gabriel Coelho Soares.</p>
+
+  </div>
+    <div>
+      <a
+        href="https://github.com/michenriksen/hugo-theme-til"
+        title="Today I Learned &#8212; A Hugo theme by Michael Henriksen"
+        data-theme-version="0.6.0"
+        >theme: til</a
+      >
+    </div>
+</section>
+
+      </footer>
+    </div>
+    
+  </body>
+</html>

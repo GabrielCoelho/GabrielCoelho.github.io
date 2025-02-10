@@ -1,0 +1,1123 @@
+<!doctype html>
+<html
+  lang="pt-br"
+  dir="ltr"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+<meta name="language" content="en" />
+<meta name="viewport" content="width=device-width" />
+<title>
+    Matemática Discreta - Aula 04 | Gabrel Coelho Soares
+</title>
+  <meta name="description" content="Resumo/anotação da aula de MMD002" />
+  <meta name="author" content="Gabriel Coelho Soares" />
+<meta property="og:url" content="http://localhost:1313/notes/mmd-004/">
+  <meta property="og:site_name" content="Gabrel Coelho Soares">
+  <meta property="og:title" content="Matemática Discreta - Aula 04">
+  <meta property="og:description" content="Resumo/anotação da aula de MMD002">
+  <meta property="og:locale" content="pt_br">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="notes">
+    <meta property="article:published_time" content="2023-08-30T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-08-30T00:00:00+00:00">
+    <meta property="article:tag" content="Notes">
+    <meta property="article:tag" content="Mmd002">
+
+
+  <meta itemprop="name" content="Matemática Discreta - Aula 04">
+  <meta itemprop="description" content="Resumo/anotação da aula de MMD002">
+  <meta itemprop="datePublished" content="2023-08-30T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-08-30T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1048">
+  <meta itemprop="keywords" content="Notes,Mmd002">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Matemática Discreta - Aula 04">
+  <meta name="twitter:description" content="Resumo/anotação da aula de MMD002">
+
+<link rel="canonical" href="http://localhost:1313/notes/mmd-004/" />
+
+    <link rel="stylesheet" href="/css/index.css" />
+
+
+      <script src="/js/main.js" defer></script>
+  
+
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
+  integrity="sha256-cXvJrnhTth8PdkVd3fDs1PUnp4P0LeKsJGhImcHEYlg="
+  crossorigin="anonymous"
+/>
+<script
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"
+  integrity="sha256-5r/l3uvUx8zScgVbq2O9OrLHO5B7bmoi01J0CoE4H9Q="
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+  integrity="sha256-e1fUJ6xicGd9r42DgN7SzHMzb5FJoWe44f4NbvZmBK4="
+  crossorigin="anonymous"
+></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: '\\[', right: '\\]', display: true }, 
+        { left: '$$', right: '$$', display: true }, 
+        { left: '\\(', right: '\\)', display: false } 
+      ],
+      throwOnError: false
+    });
+  });
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@id": "http://localhost:1313/notes/mmd-004/",
+  "@type": "BlogPosting",
+  "articleSection": [
+    "Ads-Fatec"
+  ],
+  "copyrightNotice": "Gabriel Coelho Soares",
+  "datePublished": "2023-08-30",
+  "description": "Resumo/anotação da aula de MMD002",
+  "headline": "Matemática Discreta - Aula 04",
+  "isPartOf": {
+    "@id": "http://localhost:1313/notes/",
+    "@type": "Blog",
+    "name": "Notes"
+  },
+  "keywords": [
+    "Mmd002",
+    "Notes"
+  ],
+  "mainEntityOfPage": "http://localhost:1313/notes/mmd-004/",
+  "name": "Matemática Discreta - Aula 04",
+  "timeRequired": "PT5M",
+  "url": "http://localhost:1313/notes/mmd-004/",
+  "wordCount": 1048
+}
+</script>
+
+
+  </head>
+  <body>
+    <div class="container mx-auto flex max-w-prose flex-col space-y-10 p-4 md:p-6">
+      <header class="flex flex-row items-center justify-between">
+        <div>
+  <a id="skip-nav" class="sr-only" href="#maincontent">Skip to main content</a>
+  <a class="font-semibold" href="/">Gabrel Coelho Soares</a>
+</div>
+
+  <nav>
+    <ul class="flex flex-row items-center justify-end space-x-4">
+    <li>
+      <a aria-current="true" class="ancestor" href="/notes/">Notes</a
+      >
+    </li>
+    <li>
+      <a href="/posts/">Posts</a
+      >
+    </li>
+    <li>
+      <a href="/graph/">Graph</a
+      >
+    </li>
+    </ul>
+  </nav>
+
+
+      </header>
+      <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
+        <article class="main">
+    <header>
+      <h1 class="!mb-1">Matemática Discreta - Aula 04</h1><div class="flex flex-row items-center space-x-4">
+          <time class="text-sm italic opacity-80" datetime="2023-08-30T00:00:00&#43;00:00"
+            >August 30, 2023</time
+          >
+        </div>
+    </header>
+
+    <h3 id="exercício-em-c" class="scroll-mt-8 group">
+  Exercício em C
+  
+    <a href="#exerc%c3%adcio-em-c"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<p>Criar uma função que receba a operação, e duas proposições, verdadeiras ou não. A partir da operação escolhida execute o conectivo lógico conforme a tabela abaixo:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Código operação</th>
+          <th>Retorno</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>$p \land q$</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>$p \lor q$</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>$p \underline\lor q$</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>$p \to q$</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>$p \rlap{, \gets}\to  q$</td>
+      </tr>
+      <tr>
+          <td>Qualquer outro valor</td>
+          <td>&ldquo;Não temos esta operação&rdquo;</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="código-base" class="scroll-mt-8 group">
+  Código Base
+  
+    <a href="#c%c3%b3digo-base"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<figure class="codeblock not-prose relative scroll-mt-8" id="codeblock-01">
+  <aside
+    class="absolute right-0 top-0 hidden rounded-bl-sm rounded-tr-sm bg-white/10 px-2 py-1 text-white/70 transition-opacity md:inline-block"
+  >
+    <div class="codeblock-meta flex max-w-xs flex-row items-center space-x-3">
+      <div class="small-caps shrink cursor-default truncate font-mono text-xs" aria-hidden="true">
+        <span class="relative">c</span>
+      </div>
+      <div>
+        <clipboard-copy
+          type="button"
+          aria-label="Copy code to clipboard"
+          title="Copy code to clipboard"
+          class="block cursor-pointer transition-colors hover:text-sky-400"
+          target="#codeblock-01 code"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="lucide lucide-clipboard h-4 w-4"
+  viewBox="0 0 24 24"
+>
+  <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+</svg>
+
+        </clipboard-copy>
+      </div>
+      <div>
+        <a
+          href="#codeblock-01"
+          class="block"
+          aria-label="Link to this code block"
+          title="Link to this code block"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+        </a>
+      </div>
+    </div>
+  </aside>
+  <p class="sr-only">c code snippet start</p>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdbool.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="cm">/** 
+</span></span></span><span class="line"><span class="cl"><span class="cm">* Verifica, de acordo com o conectivo lógico escolhido, a solução lógica entre duas proposições
+</span></span></span><span class="line"><span class="cl"><span class="cm">* @method logicalProp();
+</span></span></span><span class="line"><span class="cl"><span class="cm">* @param {inteiro} option = recebe o valor do menu selecionado pelo usuário.
+</span></span></span><span class="line"><span class="cl"><span class="cm">* @param {booleano} p / q = proposições lógicas
+</span></span></span><span class="line"><span class="cl"><span class="cm">* @return {booleano}      = Retorna o valor lógico de acordo com o conectivo escolhido. 
+</span></span></span><span class="line"><span class="cl"><span class="cm">*/</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">bool</span> <span class="nf">logicalProp</span><span class="p">(</span><span class="kt">int</span> <span class="n">option</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">p</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">q</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"> <span class="k">if</span><span class="p">(</span><span class="n">option</span> <span class="o">==</span> <span class="mi">1</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">//deverá retornar p E q
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span> <span class="p">}</span> <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">option</span> <span class="o">==</span> <span class="mi">2</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">//deverá retornar p OU q
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span> <span class="p">}</span> <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">option</span> <span class="o">==</span> <span class="mi">3</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">//deverá retornar OU p OU q
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span> <span class="p">}</span> <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">option</span> <span class="o">==</span> <span class="mi">4</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">//deverá retornar p IMPLICA q
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span> <span class="p">}</span> <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">option</span> <span class="o">==</span> <span class="mi">5</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">//deverá retornar p SE, E SOMENTE SE q
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span> <span class="p">}</span> <span class="k">else</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">//deverá retornar &#34;Não possuímos esta opção&#34;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl"> <span class="kt">int</span> <span class="n">menu</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Selecione um conectivo lógico do menu abaixo: </span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;1. E</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;2. OU</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;3. OU... OU...&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;4. SE... ENTÃO...&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;5. ... SE E SOMENTE SE ...&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> <span class="nf">scanf</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">menu</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="c1">// Chama a função com o número do menu digitado/escolhido pelo usuário, junto de duas proposições falsas por padrão. 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span> <span class="nf">logicalProp</span><span class="p">(</span><span class="n">menu</span><span class="p">,</span> <span class="nb">false</span><span class="p">,</span> <span class="nb">false</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> <span class="c1">// as proposições podem conter quaisquer valores lógicos. Você poderia, inclusive, jogar na tela duas proposições como &#34;A grama é vermelha&#34; ou &#34;A terra é marrom&#34; e resolver o valor delas através de uma variável. 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+  <p class="sr-only">c code snippet end</p>
+
+  
+</figure>
+<figure class="codeblock not-prose relative scroll-mt-8" id="codeblock-02">
+  <aside
+    class="absolute right-0 top-0 hidden rounded-bl-sm rounded-tr-sm bg-white/10 px-2 py-1 text-white/70 transition-opacity md:inline-block"
+  >
+    <div class="codeblock-meta flex max-w-xs flex-row items-center space-x-3">
+      <div class="small-caps shrink cursor-default truncate font-mono text-xs" aria-hidden="true">
+        <span class="relative">c</span>
+      </div>
+      <div>
+        <clipboard-copy
+          type="button"
+          aria-label="Copy code to clipboard"
+          title="Copy code to clipboard"
+          class="block cursor-pointer transition-colors hover:text-sky-400"
+          target="#codeblock-02 code"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="lucide lucide-clipboard h-4 w-4"
+  viewBox="0 0 24 24"
+>
+  <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+</svg>
+
+        </clipboard-copy>
+      </div>
+      <div>
+        <a
+          href="#codeblock-02"
+          class="block"
+          aria-label="Link to this code block"
+          title="Link to this code block"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+        </a>
+      </div>
+    </div>
+  </aside>
+  <p class="sr-only">c code snippet start</p>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="c1">// Copyright Gabriel Coelho Soares 2023
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdbool.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="kt">bool</span> <span class="nf">logicalProp</span><span class="p">(</span><span class="kt">int</span> <span class="n">option</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">p</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">q</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl"> <span class="k">switch</span> <span class="p">(</span><span class="n">option</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">  <span class="k">case</span> <span class="mi">1</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">   <span class="k">return</span> <span class="n">p</span> <span class="o">&amp;&amp;</span> <span class="n">q</span><span class="p">;</span> <span class="c1">//V &amp;&amp; F = F
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>   <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">case</span> <span class="mi">2</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">   <span class="k">return</span> <span class="n">p</span> <span class="o">||</span> <span class="n">q</span><span class="p">;</span> <span class="c1">//V || F = V
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>   <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">case</span> <span class="mi">3</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">   <span class="c1">//return !(p &amp;&amp; q); //~F = V
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>   <span class="c1">//Correção terça-feira, 16:36:42 05-09-2023
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>   <span class="k">return</span> <span class="p">(</span><span class="o">!</span><span class="p">((</span><span class="o">!</span><span class="n">p</span> <span class="o">||</span> <span class="n">q</span><span class="p">)</span><span class="o">&amp;&amp;</span><span class="p">(</span><span class="o">!</span><span class="n">q</span> <span class="o">||</span> <span class="n">p</span><span class="p">)));</span> <span class="c1">//Verificar anotações da Aula 4
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>   <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">case</span> <span class="mi">4</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">   <span class="k">return</span> <span class="o">!</span><span class="n">p</span> <span class="o">||</span> <span class="n">q</span><span class="p">;</span> <span class="c1">//~V || F = F
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>   <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">case</span> <span class="mi">5</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">   <span class="c1">//return !(!(p &amp;&amp; q)); //~(~(V)) = V
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>   <span class="c1">//Correção terça-feira, 16:37:43 05-09-2023
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>   <span class="k">return</span> <span class="p">((</span><span class="o">!</span><span class="n">p</span> <span class="o">||</span> <span class="n">q</span><span class="p">)</span><span class="o">&amp;&amp;</span><span class="p">(</span><span class="o">!</span><span class="n">q</span> <span class="o">||</span> <span class="n">p</span><span class="p">));</span> <span class="c1">//Verificar anotações da Aula 4
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>   <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> <span class="k">default</span><span class="o">:</span> 
+</span></span><span class="line"><span class="cl">   <span class="k">return</span> <span class="s">&#34;Não possuímos esta opção&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">   <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl"> <span class="c1">//declaração de variáveis
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span> <span class="kt">int</span> <span class="n">menu</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> <span class="kt">bool</span> <span class="n">prop</span> <span class="o">=</span> <span class="nb">true</span><span class="p">,</span> <span class="n">repeat</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"> <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;|************************|</span><span class="se">\n</span><span class="s">|*********MMD001*********|</span><span class="se">\n</span><span class="s">|************************|</span><span class="se">\n</span><span class="s">|**LÓGICA PROPOSICIONAL**|</span><span class="se">\n\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> <span class="k">while</span><span class="p">(</span><span class="n">repeat</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">//P = VERDADEIRO; Q = FALSO
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Analise as seguintes proposições:</span><span class="se">\n\n</span><span class="s">P = </span><span class="se">\&#34;</span><span class="s">Todo número inteiro MULTIPLICADO por dois(2) resultará num número PAR</span><span class="se">\&#34;\n</span><span class="s">Q = </span><span class="se">\&#34;</span><span class="s">Todo número inteiro DIVIDIDO por dois(2) resultará num número PAR</span><span class="se">\&#34;\n\n</span><span class="s">&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Selecione um conectivo lógico do menu abaixo para verificar as proposições acima: </span><span class="se">\n</span><span class="s">1. E</span><span class="se">\n</span><span class="s">2. OU</span><span class="se">\n</span><span class="s">3. OU... OU...</span><span class="se">\n</span><span class="s">4. SE... ENTÃO...</span><span class="se">\n</span><span class="s">5. ... SE E SOMENTE SE ...</span><span class="se">\n\n</span><span class="s">Digite a opção desejada: &#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">scanf</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">menu</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span><span class="p">(</span><span class="n">menu</span> <span class="o">!=</span> <span class="mi">1</span> <span class="o">&amp;&amp;</span> <span class="n">menu</span> <span class="o">!=</span> <span class="mi">2</span> <span class="o">&amp;&amp;</span> <span class="n">menu</span> <span class="o">!=</span> <span class="mi">3</span> <span class="o">&amp;&amp;</span> <span class="n">menu</span> <span class="o">!=</span> <span class="mi">4</span> <span class="o">&amp;&amp;</span> <span class="n">menu</span> <span class="o">!=</span> <span class="mi">5</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">   <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;O Menu não possui esta opção!</span><span class="se">\n</span><span class="s">Por favor, escolha novamente.&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">   <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;O Resultado do conectivo selecionado foi: %s&#34;</span><span class="p">,</span> <span class="nf">logicalProp</span><span class="p">(</span><span class="n">menu</span><span class="p">,</span> <span class="n">prop</span><span class="p">,</span> <span class="p">(</span><span class="o">!</span><span class="n">prop</span><span class="p">))</span> <span class="o">?</span> <span class="s">&#34;VERDADEIRO&#34;</span> <span class="o">:</span> <span class="s">&#34;FALSO&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">   <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;</span><span class="se">\n\n</span><span class="s">Deseja fazer novamente?</span><span class="se">\n</span><span class="s">1. Sim</span><span class="se">\n</span><span class="s">0. Não, encerrar</span><span class="se">\n\n</span><span class="s">Digite o que deseja: &#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">   <span class="nf">scanf</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">menu</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">   <span class="k">if</span><span class="p">(</span><span class="n">menu</span> <span class="o">==</span> <span class="mi">0</span><span class="p">){</span><span class="n">repeat</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+  <p class="sr-only">c code snippet end</p>
+
+  
+</figure>
+<h3 id="conteúdo-da-primeira-parte-da-aula" class="scroll-mt-8 group">
+  Conteúdo da primeira parte da aula
+  
+    <a href="#conte%c3%bado-da-primeira-parte-da-aula"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<h4 id="equivalência-em-proposições" class="scroll-mt-8 group">
+  Equivalência em proposições
+  
+    <a href="#equival%c3%aancia-em-proposi%c3%a7%c3%b5es"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>Utilizamos a seguinte representação</p>
+<p>$\equiv$</p>
+<p>Isso significa que os Valores lógicos finais de duas proposições são idênticos, ainda que $p$ esteja falando que <em>coxinhas são deliciosas</em> e $q$ fale que <em>2+2=4</em>. São duas proposições cujo valor lógico resultam em verdadeiros, ainda que são duas proposições sem relação uma com a outra.</p>
+<h5 id="propriedade-comutativa" class="scroll-mt-8 group">
+  Propriedade Comutativa
+  
+    <a href="#propriedade-comutativa"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>$A \land B \equiv B \land A$
+<em>o mesmo vale para o OU</em>
+$A \lor B \equiv B \lor A$</p>
+<h5 id="propriedade-associativa" class="scroll-mt-8 group">
+  Propriedade Associativa
+  
+    <a href="#propriedade-associativa"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>Se temos $(A \land B) \land C$ ou $(A \lor B) \lor C$ podemos fazer os dois primeiros, para verificar a resposta lógica.
+Assim, quaisquer duas proposições que pegamos, podemos checar entre elas para então checar com a terceira, não precisando utilizar do modo como lemos (esquerda para direita).</p>
+<h5 id="propriedade-distributiva" class="scroll-mt-8 group">
+  Propriedade Distributiva
+  
+    <a href="#propriedade-distributiva"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>$A \land (B \lor C) \equiv (A \land B) \lor (A \land C)$
+$A \lor (B \land C) \equiv (A \lor B) \land (A \lor C)$
+É como se fosse uma multiplicação do elemento &ldquo;alheio&rdquo; dentro dos elementos comutativos. Assim, utilizamos o conectivo lógico alheio (no exemplo, de A) para &ldquo;multiplicar&rdquo;, e o conectivo lógico comutativo (no exemplo entre o B e o C) para &ldquo;somar&rdquo; os resultados
+Apenas um exemplo
+$$ 2 × (1 + 2) \equiv (2×1) + (2×2) \implies A \land (B \lor C) \equiv (A\land B) \lor (A\land C)
+$$</p>
+<h5 id="leis-de-morgan" class="scroll-mt-8 group">
+  Leis de Morgan
+  
+    <a href="#leis-de-morgan"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p><del>$(A\land B) \equiv ($</del>$A) \lor ($<del>$B)$
+<del>$(A\lor B) \equiv ($</del>$A) \land ($</del>$B)$</p>
+<p>A negação de uma conexão de proposições, é negar cada uma das proposições e trocar o conectivo.</p>
+<h5 id="exercício" class="scroll-mt-8 group">
+  Exercício
+  
+    <a href="#exerc%c3%adcio"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>Prove a equivalência <del>$(p\lor q) \equiv ($</del>$p) \land ($~$q)$</p>
+<table>
+  <thead>
+      <tr>
+          <th>p</th>
+          <th>q</th>
+          <th>$p\lor q$</th>
+          <th>~$(p \lor q)$</th>
+          <th>~$p$</th>
+          <th>~$q$</th>
+          <th>(<del>$A) \land ($</del>$B)$</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>V</td>
+          <td>V</td>
+          <td>V</td>
+          <td><strong>F</strong></td>
+          <td>F</td>
+          <td>F</td>
+          <td><strong>F</strong></td>
+      </tr>
+      <tr>
+          <td>V</td>
+          <td>F</td>
+          <td>V</td>
+          <td><strong>F</strong></td>
+          <td>F</td>
+          <td>V</td>
+          <td><strong>F</strong></td>
+      </tr>
+      <tr>
+          <td>F</td>
+          <td>V</td>
+          <td>V</td>
+          <td><strong>F</strong></td>
+          <td>V</td>
+          <td>F</td>
+          <td><strong>F</strong></td>
+      </tr>
+      <tr>
+          <td>F</td>
+          <td>F</td>
+          <td>F</td>
+          <td><strong>V</strong></td>
+          <td>V</td>
+          <td>V</td>
+          <td><strong>V</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p>Ou seja, ambas as proposições retornam o mesmo valor, logo: são equivalentes.</p>
+<h4 id="os-símbolos-lógicos-na-programação" class="scroll-mt-8 group">
+  Os símbolos lógicos na programação
+  
+    <a href="#os-s%c3%admbolos-l%c3%b3gicos-na-programa%c3%a7%c3%a3o"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<p>Na programação é difícil de inserir os conectivos lógicos da maneira que conhecemos, por isso os programadores facilitaram</p>
+<table>
+  <thead>
+      <tr>
+          <th>Conectivo na Matemática</th>
+          <th>Significado</th>
+          <th>Conectivo na Programação</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>$p\land q$</td>
+          <td>e</td>
+          <td>x &amp;&amp; y</td>
+      </tr>
+      <tr>
+          <td>$p\lor q$</td>
+          <td>ou</td>
+          <td>x || y</td>
+      </tr>
+      <tr>
+          <td>~$p$</td>
+          <td>não</td>
+          <td>!x</td>
+      </tr>
+  </tbody>
+</table>
+<h5 id="exercício-2" class="scroll-mt-8 group">
+  Exercício 2
+  
+    <a href="#exerc%c3%adcio-2"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h5>
+<p>Negar a seguinte sentença:</p>
+<blockquote>
+<p>O ser humano é uma ave e o dobro de cinco é dez.</p></blockquote>
+<h6 id="solução" class="scroll-mt-8 group">
+  Solução
+  
+    <a href="#solu%c3%a7%c3%a3o"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h6>
+<p>$p$ = &ldquo;O ser humano é uma ave&rdquo;
+$q$ = &ldquo;o dobro de cinco é dez&rdquo;</p>
+<p>original $\implies p \land q$
+a negação seria $\implies$ <del>$(p \land q) \equiv$ $($</del>$p) \lor ($~$q)$</p>
+<p>Assim, a frase correta seria: <strong>O ser humano NÃO é uma ave OU o dobro de cinco NÃO é dez</strong>.</p>
+<h4 id="algumas-outras-equivalências" class="scroll-mt-8 group">
+  Algumas (outras) equivalências
+  
+    <a href="#algumas-outras-equival%c3%aancias"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<ul>
+<li><del>$($</del>$A) \equiv A$</li>
+<li>$A \to B \equiv ($<del>$B) \to ($</del>$A)$</li>
+<li>$A \to B \equiv$ ~$A \lor B$</li>
+<li><del>$(A \to B) \equiv A \land ($</del>$B)$</li>
+<li>~$(A \underline\lor B) \equiv A \rlap{, \gets}\to B$</li>
+<li>$A \rlap{, \gets}\to B \equiv (A \to B) \land (B \to A)$</li>
+</ul>
+
+  </article>
+    <aside class="not-prose flex flex-col space-y-8 border-t pt-6">
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-shapes h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z"
+  />
+  <rect width="7" height="7" x="3" y="14" rx="1" />
+  <circle cx="17.5" cy="17.5" r="3.5" />
+</svg>
+
+        <span>Categories</span>
+      </h2>
+
+      <ul class="ml-6 flex flex-row flex-wrap items-center space-x-2">
+          <li>
+            <a href="/categories/ads-fatec/" class="taxonomy category">ads-fatec</a>
+          </li>
+      </ul>
+    </section>
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-tags h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path d="m15 5 6.3 6.3a2.4 2.4 0 0 1 0 3.4L17 19" />
+  <path
+    d="M9.586 5.586A2 2 0 0 0 8.172 5H3a1 1 0 0 0-1 1v5.172a2 2 0 0 0 .586 1.414L8.29 18.29a2.426 2.426 0 0 0 3.42 0l3.58-3.58a2.426 2.426 0 0 0 0-3.42z"
+  />
+  <circle cx="6.5" cy="9.5" r=".5" fill="currentColor" />
+</svg>
+
+        <span>Tags</span>
+      </h2>
+
+      <ul class="not-prose ml-6 flex flex-row flex-wrap items-center space-x-2">
+          <li>
+            <a href="/tags/notes/" class="taxonomy tag">notes</a>
+          </li>
+          <li>
+            <a href="/tags/mmd002/" class="taxonomy tag">mmd002</a>
+          </li>
+      </ul>
+    </section>
+    <section class="flex flex-col space-y-4" aria-hidden="true">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-chart-network h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="m13.11 7.664 1.78 2.672M14.162 12.788l-3.324 1.424M20 4l-6.06 1.515M3 3v16a2 2 0 0 0 2 2h16"
+  />
+  <circle cx="12" cy="6" r="2" />
+  <circle cx="16" cy="12" r="2" />
+  <circle cx="9" cy="15" r="2" />
+</svg>
+
+        <span>Graph</span>
+      </h2>
+
+      <content-network-graph
+  class="h-64 ml-6"
+  data-endpoint="/graph/index.json"
+  page="/notes/mmd-004/"
+></content-network-graph>
+
+    </section>
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-notebook-text h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path d="M2 6h4M2 10h4M2 14h4M2 18h4" />
+  <rect width="16" height="20" x="4" y="2" rx="2" />
+  <path d="M9.5 8h5M9.5 12H16M9.5 16H14" />
+</svg>
+
+        <span>Notes</span>
+      </h2>
+        <section class="flex flex-col space-y-1">
+          <h3 class="flex flex-row items-center space-x-2 text-sm font-semibold">
+            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 256 256"
+  class="h-4 w-4"
+  aria-hidden="true"
+>
+  <path
+    fill="currentColor"
+    d="M222.16 153.26a8 8 0 0 1-1 11.25c-17.36 14.38-32.86 19.49-47 19.49-18.58 0-34.82-8.81-49.93-17-25.35-13.75-47.24-25.63-79.07.74a8 8 0 1 1-10.22-12.3c40.17-33.27 70.32-16.92 96.93-2.48 25.35 13.75 47.24 25.62 79.07-.75a8 8 0 0 1 11.22 1.05m-177-49.46c31.83-26.37 53.72-14.5 79.07-.75 15.11 8.2 31.35 17 49.93 17 14.14 0 29.64-5.11 47-19.49a8 8 0 1 0-10.22-12.3c-31.83 26.37-53.72 14.49-79.07.74-26.61-14.43-56.76-30.79-96.93 2.48a8 8 0 0 0 10.17 12.32Z"
+  />
+</svg>
+
+            <span>Related</span>
+          </h3>
+
+          <ol class="not-prose ml-6">
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-003/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 03"
+              >Matemática Discreta - Aula 03</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-002/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 02"
+              >Matemática Discreta - Aula 02</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-001/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 01"
+              >Matemática Discreta - Aula 01</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/aag-002/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Fordismo e Toyotismo"
+              >Fordismo E Toyotismo</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/aag-001/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Introdução à Administração Geral"
+              >Introdução À Administração Geral</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+</ol>
+
+        </section>
+    </section>
+</aside>
+
+
+      </main>
+      <footer class="mt-20 border-t border-neutral-100 pt-2 text-xs">
+        <section class="items-top flex flex-row justify-between opacity-70">
+  <div class="flex flex-col space-y-2">
+      <p>Copyright &copy; 2025, Gabriel Coelho Soares.</p>
+
+  </div>
+    <div>
+      <a
+        href="https://github.com/michenriksen/hugo-theme-til"
+        title="Today I Learned &#8212; A Hugo theme by Michael Henriksen"
+        data-theme-version="0.6.0"
+        >theme: til</a
+      >
+    </div>
+</section>
+
+      </footer>
+    </div>
+    
+  </body>
+</html>
