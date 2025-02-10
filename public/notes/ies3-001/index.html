@@ -8,35 +8,37 @@
 <meta name="language" content="en" />
 <meta name="viewport" content="width=device-width" />
 <title>
-    Engenharia de Software I - Aula 03 | Gabrel Coelho Soares
+    Engenharia de Software III - Aula 01 | Gabrel Coelho Soares
 </title>
-  <meta name="description" content="Modelos de Processos de Desenvolvimento de Software" />
+  <meta name="description" content="Conceitos de Orientação a Objetos" />
   <meta name="author" content="Gabriel Coelho Soares" />
-<meta property="og:url" content="http://localhost:1313/notes/ies1-003/">
+<meta property="og:url" content="http://localhost:1313/notes/ies3-001/">
   <meta property="og:site_name" content="Gabrel Coelho Soares">
-  <meta property="og:title" content="Engenharia de Software I - Aula 03">
-  <meta property="og:description" content="Modelos de Processos de Desenvolvimento de Software">
+  <meta property="og:title" content="Engenharia de Software III - Aula 01">
+  <meta property="og:description" content="Conceitos de Orientação a Objetos">
   <meta property="og:locale" content="pt_br">
   <meta property="og:type" content="article">
     <meta property="article:section" content="notes">
-    <meta property="article:published_time" content="2024-04-01T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-04-01T00:00:00+00:00">
+    <meta property="article:published_time" content="2025-02-10T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-02-10T00:00:00+00:00">
     <meta property="article:tag" content="Development">
-    <meta property="article:tag" content="Ies100">
+    <meta property="article:tag" content="Ies300">
+    <meta property="article:tag" content="Ilp007">
+    <meta property="article:tag" content="Oop">
 
 
-  <meta itemprop="name" content="Engenharia de Software I - Aula 03">
-  <meta itemprop="description" content="Modelos de Processos de Desenvolvimento de Software">
-  <meta itemprop="datePublished" content="2024-04-01T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2024-04-01T00:00:00+00:00">
-  <meta itemprop="wordCount" content="269">
-  <meta itemprop="keywords" content="Development,Ies100">
+  <meta itemprop="name" content="Engenharia de Software III - Aula 01">
+  <meta itemprop="description" content="Conceitos de Orientação a Objetos">
+  <meta itemprop="datePublished" content="2025-02-10T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-02-10T00:00:00+00:00">
+  <meta itemprop="wordCount" content="446">
+  <meta itemprop="keywords" content="Development,Ies300,Ilp007,Oop">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Engenharia de Software I - Aula 03">
-  <meta name="twitter:description" content="Modelos de Processos de Desenvolvimento de Software">
+  <meta name="twitter:title" content="Engenharia de Software III - Aula 01">
+  <meta name="twitter:description" content="Conceitos de Orientação a Objetos">
 
-<link rel="canonical" href="http://localhost:1313/notes/ies1-003/" />
+<link rel="canonical" href="http://localhost:1313/notes/ies3-001/" />
 
     <link rel="stylesheet" href="/css/index.css" />
 
@@ -47,15 +49,15 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
-  "@id": "http://localhost:1313/notes/ies1-003/",
+  "@id": "http://localhost:1313/notes/ies3-001/",
   "@type": "BlogPosting",
   "articleSection": [
     "Ads-Fatec"
   ],
   "copyrightNotice": "Gabriel Coelho Soares",
-  "datePublished": "2024-04-01",
-  "description": "Modelos de Processos de Desenvolvimento de Software",
-  "headline": "Engenharia De Software I - Aula 03",
+  "datePublished": "2025-02-10",
+  "description": "Conceitos de Orientação a Objetos",
+  "headline": "Engenharia De Software III - Aula 01",
   "isPartOf": {
     "@id": "http://localhost:1313/notes/",
     "@type": "Blog",
@@ -63,13 +65,15 @@
   },
   "keywords": [
     "Development",
-    "Ies100"
+    "Ies300",
+    "Ilp007",
+    "Oop"
   ],
-  "mainEntityOfPage": "http://localhost:1313/notes/ies1-003/",
-  "name": "Engenharia De Software I - Aula 03",
-  "timeRequired": "PT2M",
-  "url": "http://localhost:1313/notes/ies1-003/",
-  "wordCount": 269
+  "mainEntityOfPage": "http://localhost:1313/notes/ies3-001/",
+  "name": "Engenharia De Software III - Aula 01",
+  "timeRequired": "PT3M",
+  "url": "http://localhost:1313/notes/ies3-001/",
+  "wordCount": 446
 }
 </script>
 
@@ -105,17 +109,42 @@
       <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
         <article class="main">
     <header>
-      <h1 class="!mb-1">Engenharia De Software I - Aula 03</h1><div class="flex flex-row items-center space-x-4">
-          <time class="text-sm italic opacity-80" datetime="2024-04-01T00:00:00&#43;00:00"
-            >April 1, 2024</time
+      <h1 class="!mb-1">Engenharia De Software III - Aula 01</h1><div class="flex flex-row items-center space-x-4">
+          <time class="text-sm italic opacity-80" datetime="2025-02-10T00:00:00&#43;00:00"
+            >February 10, 2025</time
           >
         </div>
     </header>
 
-    <h3 id="modelos-de-processo-de-desenvolvimento-de-software" class="scroll-mt-8 group">
-  Modelos de Processo de Desenvolvimento de Software
+    <h2 id="conteúdo-da-aula" class="scroll-mt-8 group">
+  Conteúdo da aula
   
-    <a href="#modelos-de-processo-de-desenvolvimento-de-software"
+    <a href="#conte%c3%bado-da-aula"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h2>
+<h3 id="breve-linha-do-tempo-dos-métodos-de-programação" class="scroll-mt-8 group">
+  Breve linha do tempo dos métodos de programação
+  
+    <a href="#breve-linha-do-tempo-dos-m%c3%a9todos-de-programa%c3%a7%c3%a3o"
         class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
         aria-hidden="true" title="Link to this heading" tabindex="-1">
         <svg
@@ -138,31 +167,62 @@
   
 </h3>
 <ul>
-<li>Clássico / Cascata</li>
-<li>Incrementais
+<li>Primeiro surgiam os padrões <strong>Sequênciais</strong></li>
+<li>Conforme a necessidade tecnológica, evoluiram para os padrões <strong>Procedurais</strong></li>
+<li>Com interface gráfica, surgiram os padrões de programação orientada a <strong>Eventos</strong>
 <ul>
-<li>Modelo Incremental</li>
-<li>RAD</li>
+<li>E com elas, duas grandes linguagens ficaram famosas: <em>Delphi</em> e <em>VB</em></li>
 </ul>
 </li>
-<li>Evolutivos
-<ul>
-<li>Prototipagem</li>
-<li>Espiral</li>
+<li>Com os computadores interligados em redes,
+houve a necessidade de uma programação orientada a <strong>Objeto</strong></li>
 </ul>
-</li>
-<li>Processo Unificado (RUP)</li>
-<li>Métodos Ágeis
-<ul>
-<li>Scrum</li>
-<li>XP</li>
-</ul>
-</li>
-</ul>
-<h4 id="modelos-incrementais" class="scroll-mt-8 group">
-  Modelos Incrementais
+<blockquote>
+<p>A <em>Programação orientada a Objetos</em> veio para suprir a necessidade
+de reutilizar códigos e reduzir o alto consumo de memória. Como exemplo,
+o botão de salvar do excel, do word, do powerpoint&hellip; é o mesmo
+botão. Apenas uma questão de reutilização deste objeto que irá salvar algo.</p></blockquote>
+<p>Dentro da Programação Orientada a Objetos é possível criar programas Sequênciais,
+Procedurais e orientado a Eventos. Ela permite aplicar todas as anteriores.</p>
+<h3 id="conceitos-de-orientação-a-objeto" class="scroll-mt-8 group">
+  Conceitos de Orientação a Objeto
   
-    <a href="#modelos-incrementais"
+    <a href="#conceitos-de-orienta%c3%a7%c3%a3o-a-objeto"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<p>Observando duas fotos de carros diferentes, um antigo e outro mais novo. Ainda
+assim, são carros. E sendo carros, há questões que podem ser reaproveitadas
+entre eles - tais como Portas, Quantidade de Pneus, Volante, etc.</p>
+<p>No entanto, mesmo entre as questões genéricas, há os detalhes, as especificidades
+de cada carro, como potência do motor (embora ambos tenham motor), valor do
+seguro, entre outros.</p>
+<p>Por isso, podemos dizer que <strong>Carro</strong> é um <strong>Classe</strong>, mas um Ford Ka, um Toyota
+Corolla, uma VW Kombi são <strong>Instâncias desta Classe - ou seja, um Objeto</strong>,
+ou seja - a generalização é caracterizada pelo objeto, enquanto as
+especificidades são como instâncias do mesmo.</p>
+<h4 id="fácil-de-manter" class="scroll-mt-8 group">
+  Fácil de manter
+  
+    <a href="#f%c3%a1cil-de-manter"
         class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
         aria-hidden="true" title="Link to this heading" tabindex="-1">
         <svg
@@ -185,74 +245,15 @@
   
 </h4>
 <ul>
-<li>Destinados a desenvolver o software em incrementos, normalmente utilizados para entregar rapidamente um breve conjunto de funcionalidades ou quando os requisitos não estão tão bem definidos ou não são estáveis.</li>
+<li>Precisa ser fácil de manter;</li>
+<li>Deve ser possível a reutilização de código, sem duplicidade do mesmo;</li>
+<li>Fácil de ser lido.</li>
+<li>Alteração mais simples de ser realizada</li>
 </ul>
-<h5 id="modelo-incremental" class="scroll-mt-8 group">
-  Modelo Incremental
+<h4 id="atributos-e-métodos" class="scroll-mt-8 group">
+  Atributos e Métodos
   
-    <a href="#modelo-incremental"
-        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
-        aria-hidden="true" title="Link to this heading" tabindex="-1">
-        <svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="16"
-  height="16"
-  fill="none"
-  stroke="currentColor"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  stroke-width="2"
-  class="lucide lucide-link w-4 h-4 block"
-  viewBox="0 0 24 24"
->
-  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
-  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
-</svg>
-
-    </a>
-  
-</h5>
-<ul>
-<li>Evolução direta do modelo cascata, que são executadas repetidas vezes dentro de cada incremento realizado.</li>
-<li>Cada incremento é uma nova funcionalidade de um produto já operacional (ainda que minimamente) sendo passível de ser entregue ao cliente.</li>
-</ul>
-<h5 id="rad-rapid-aplication-development" class="scroll-mt-8 group">
-  RAD (Rapid Aplication Development)
-  
-    <a href="#rad-rapid-aplication-development"
-        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
-        aria-hidden="true" title="Link to this heading" tabindex="-1">
-        <svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="16"
-  height="16"
-  fill="none"
-  stroke="currentColor"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  stroke-width="2"
-  class="lucide lucide-link w-4 h-4 block"
-  viewBox="0 0 24 24"
->
-  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
-  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
-</svg>
-
-    </a>
-  
-</h5>
-<ul>
-<li>Modelo incremental com foco no ciclo de desenvolvimento de curta duração (60-90 dias) baseada em <strong>componentes</strong></li>
-<li>Cada equipe trabalha paralelamente para incrementarem, somente, na finalização de todos os componentes.
-<ul>
-<li>Isso gera um risco alto na hora da integração que, se não houver padrões definidos no início do projeto, poderá ocorrer componentes muito distintos uns dos outros.</li>
-</ul>
-</li>
-</ul>
-<h4 id="evolutivos--evolucionário" class="scroll-mt-8 group">
-  Evolutivos / Evolucionário
-  
-    <a href="#evolutivos--evolucion%c3%a1rio"
+    <a href="#atributos-e-m%c3%a9todos"
         class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
         aria-hidden="true" title="Link to this heading" tabindex="-1">
         <svg
@@ -274,14 +275,74 @@
     </a>
   
 </h4>
-<ul>
-<li>Surgiram quase na mesma época que os incrementais. Os requisitos mudam frequentemente ao longo do tempo, permitindo aos modelos em questão lidarem com as incertezas e contínuas mudanças nos requisitos.</li>
-<li>Não há compromisso de entrega a cada interação, e a documentação é aceitável como uma entrega.</li>
-</ul>
-<h5 id="prototipagem" class="scroll-mt-8 group">
-  Prototipagem
+<p>Toda classe tem seus atributos e seus métodos.
+Ainda observando a classe <strong>Carro</strong>, seus atributos são aqueles que comentamos
+acima, tais como Portas, Rodas, Motor&hellip;</p>
+<p>E seus métodos serão como, <em>acelerar, frear, desligar, ligar&hellip;</em></p>
+<p>Embora os métodos não consigam acessar dados de outras classes/objetos,
+uma classe pode ter o conhecimento de dados de outras chamando por serviços,
+ou mensagens.</p>
+<h4 id="classes" class="scroll-mt-8 group">
+  Classes
   
-    <a href="#prototipagem"
+    <a href="#classes"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<blockquote>
+<p>Uma classe é uma representação de um conjunto de objetos que compartilham a
+mesma estrutura de atributos, operações e relacionamentos dentro de um mesmo
+contexto.</p></blockquote>
+<h4 id="objeto" class="scroll-mt-8 group">
+  Objeto
+  
+    <a href="#objeto"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h4>
+<blockquote>
+<p>É uma instâcia de uma classe, a ocorrência daquela classe num determinado
+momento.</p></blockquote>
+<h5 id="exemplo" class="scroll-mt-8 group">
+  Exemplo
+  
+    <a href="#exemplo"
         class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
         aria-hidden="true" title="Link to this heading" tabindex="-1">
         <svg
@@ -303,13 +364,92 @@
     </a>
   
 </h5>
-<ul>
-<li>Facilita o entendimento dos requisitos do usuário e a definição de requisitos do sistema, e a iteração ocorre à medida que o protótipo é ajustado.</li>
-<li>Isto é, começa-se a realizar um protótipo, um &ldquo;modelo&rdquo; do software que será construído. Assim, o protótipo é sempre ajustado para realizar a necessidade do cliente.</li>
-</ul>
-<p><a href="/notes/ies1-001/" class="backlink">Engenharia de Software I - Aula 01</a>
+<p>Um objeto &ldquo;João&rdquo; é do tipo Classe &ldquo;Pessoa&rdquo;.</p>
+<figure class="codeblock not-prose relative scroll-mt-8" id="codeblock-01">
+  <aside
+    class="absolute right-0 top-0 hidden rounded-bl-sm rounded-tr-sm bg-white/10 px-2 py-1 text-white/70 transition-opacity md:inline-block"
+  >
+    <div class="codeblock-meta flex max-w-xs flex-row items-center space-x-3">
+      <div class="small-caps shrink cursor-default truncate font-mono text-xs" aria-hidden="true">
+        <span class="relative">java</span>
+      </div>
+      <div>
+        <clipboard-copy
+          type="button"
+          aria-label="Copy code to clipboard"
+          title="Copy code to clipboard"
+          class="block cursor-pointer transition-colors hover:text-sky-400"
+          target="#codeblock-01 code"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="lucide lucide-clipboard h-4 w-4"
+  viewBox="0 0 24 24"
+>
+  <rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
+  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+</svg>
 
-<a href="/notes/ies1-002/" class="backlink">Engenharia de Software I - Aula 02</a>
+        </clipboard-copy>
+      </div>
+      <div>
+        <a
+          href="#codeblock-01"
+          class="block"
+          aria-label="Link to this code block"
+          title="Link to this code block"
+        >
+          <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+        </a>
+      </div>
+    </div>
+  </aside>
+  <p class="sr-only">java code snippet start</p>
+  <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">Class</span><span class="w"> </span><span class="n">Pessoa</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">nome</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">sexo</span><span class="p">;</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Date</span><span class="w"> </span><span class="n">dataNascimento</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">estadoCivil</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// (...)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">args</span><span class="o">[]</span><span class="p">){</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">Pessoa</span><span class="w"> </span><span class="n">joao</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="s">&#34;João&#34;</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;Masculino&#34;</span><span class="p">,</span><span class="w"> </span><span class="n">1998</span><span class="o">-</span><span class="n">01</span><span class="o">-</span><span class="n">30</span><span class="p">,</span><span class="w"> </span><span class="s">&#34;Solteiro&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">joao</span><span class="p">.</span><span class="na">nome</span><span class="p">);</span><span class="w"> </span><span class="c1">// João </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">joao</span><span class="p">.</span><span class="na">sexo</span><span class="p">);</span><span class="w"> </span><span class="c1">// Masculino </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">joao</span><span class="p">.</span><span class="na">dataNascimento</span><span class="p">);</span><span class="w"> </span><span class="c1">// 1998-01-30 </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">joao</span><span class="p">.</span><span class="na">estadoCivil</span><span class="p">);</span><span class="w"> </span><span class="c1">// Solteiro</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div>
+  <p class="sr-only">java code snippet end</p>
+
+  
+</figure>
+<hr>
+<p><strong>Referências</strong>
+<a href="/notes/ies1-001/" class="backlink">Engenharia de Software I - Aula 01</a>
+
+<a href="/notes/ibd-003/" class="backlink">Banco de Dados - Exercícios SQL</a>
 </p>
 
   </article>
@@ -371,7 +511,13 @@
             <a href="/tags/development/" class="taxonomy tag">development</a>
           </li>
           <li>
-            <a href="/tags/ies100/" class="taxonomy tag">ies100</a>
+            <a href="/tags/ies300/" class="taxonomy tag">ies300</a>
+          </li>
+          <li>
+            <a href="/tags/ilp007/" class="taxonomy tag">ilp007</a>
+          </li>
+          <li>
+            <a href="/tags/oop/" class="taxonomy tag">oop</a>
           </li>
       </ul>
     </section>
@@ -402,9 +548,100 @@
       <content-network-graph
   class="h-64 ml-6"
   data-endpoint="/graph/index.json"
-  page="/notes/ies1-003/"
+  page="/notes/ies3-001/"
 ></content-network-graph>
 
+    </section>
+    <section class="flex flex-col space-y-4">
+      <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-newspaper h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path
+    d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2M18 14h-8M15 18h-5"
+  />
+  <path d="M10 6h8v4h-8V6Z" />
+</svg>
+
+        <span>Posts</span>
+      </h2>
+        <section class="flex flex-col space-y-1">
+          <h3 class="flex flex-row items-center space-x-2 text-sm font-semibold">
+            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 256 256"
+  class="h-4 w-4"
+  aria-hidden="true"
+>
+  <path
+    fill="currentColor"
+    d="M222.16 153.26a8 8 0 0 1-1 11.25c-17.36 14.38-32.86 19.49-47 19.49-18.58 0-34.82-8.81-49.93-17-25.35-13.75-47.24-25.63-79.07.74a8 8 0 1 1-10.22-12.3c40.17-33.27 70.32-16.92 96.93-2.48 25.35 13.75 47.24 25.62 79.07-.75a8 8 0 0 1 11.22 1.05m-177-49.46c31.83-26.37 53.72-14.5 79.07-.75 15.11 8.2 31.35 17 49.93 17 14.14 0 29.64-5.11 47-19.49a8 8 0 1 0-10.22-12.3c-31.83 26.37-53.72 14.49-79.07.74-26.61-14.43-56.76-30.79-96.93 2.48a8 8 0 0 0 10.17 12.32Z"
+  />
+</svg>
+
+            <span>Related</span>
+          </h3>
+
+          <ol class="not-prose ml-6">
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/posts/2nd/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Início das aulas - Novo Layout"
+              >Início Das Aulas - Novo Layout</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/life/"
+                  class="taxonomy"
+                  title="Posts and notes on Life"
+                  >Life</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/posts/1st/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Um novo ano..."
+              >Um Novo Ano...</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/life/"
+                  class="taxonomy"
+                  title="Posts and notes on Life"
+                  >Life</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+</ol>
+
+        </section>
     </section>
     <section class="flex flex-col space-y-4">
       <h2 class="flex flex-row items-center space-x-2 text-lg font-semibold">
@@ -452,10 +689,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-002/"
+              href="/notes/conceito-poo/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
+              title="Fundamentos de Orientação a Objetos"
+              >Fundamentos De Orientação a Objetos</a
             >
           </h3>
         </header>
@@ -476,10 +713,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-001/"
+              href="/notes/abstracao-poo/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 01"
-              >Engenharia De Software I - Aula 01</a
+              title="Abstração em POO"
+              >Abstração Em POO</a
             >
           </h3>
         </header>
@@ -500,10 +737,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-002/"
+              href="/notes/conceito-poo/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
+              title="Fundamentos de Orientação a Objetos"
+              >Fundamentos De Orientação a Objetos</a
             >
           </h3>
         </header>
@@ -524,10 +761,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-001/"
+              href="/notes/abstracao-poo/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 01"
-              >Engenharia De Software I - Aula 01</a
+              title="Abstração em POO"
+              >Abstração Em POO</a
             >
           </h3>
         </header>
@@ -548,10 +785,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-002/"
+              href="/notes/conceito-poo/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
+              title="Fundamentos de Orientação a Objetos"
+              >Fundamentos De Orientação a Objetos</a
             >
           </h3>
         </header>
@@ -572,10 +809,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-001/"
+              href="/notes/abstracao-poo/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 01"
-              >Engenharia De Software I - Aula 01</a
+              title="Abstração em POO"
+              >Abstração Em POO</a
             >
           </h3>
         </header>
@@ -596,10 +833,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-002/"
+              href="/notes/conceito-poo/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
+              title="Fundamentos de Orientação a Objetos"
+              >Fundamentos De Orientação a Objetos</a
             >
           </h3>
         </header>
@@ -620,10 +857,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-001/"
+              href="/notes/abstracao-poo/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 01"
-              >Engenharia De Software I - Aula 01</a
+              title="Abstração em POO"
+              >Abstração Em POO</a
             >
           </h3>
         </header>
@@ -644,10 +881,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-002/"
+              href="/notes/conceito-poo/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
+              title="Fundamentos de Orientação a Objetos"
+              >Fundamentos De Orientação a Objetos</a
             >
           </h3>
         </header>
@@ -668,10 +905,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-001/"
+              href="/notes/abstracao-poo/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 01"
-              >Engenharia De Software I - Aula 01</a
+              title="Abstração em POO"
+              >Abstração Em POO</a
             >
           </h3>
         </header>
@@ -692,130 +929,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-002/"
+              href="/notes/conceito-poo/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
-            >
-          </h3>
-        </header>
-          <ul class="flex flex-row items-center justify-end space-x-2">
-              <li>
-                <a
-                  href="/categories/ads-fatec/"
-                  class="taxonomy"
-                  title="Posts and notes on Ads-Fatec"
-                  >Ads-Fatec</a
-                >
-              </li>
-          </ul>
-      </article>
-    </li>
-    <li>
-      <article class="flex flex-row items-center">
-        <header class="grow">
-          <h3>
-            <a
-              href="/notes/ies1-001/"
-              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 01"
-              >Engenharia De Software I - Aula 01</a
-            >
-          </h3>
-        </header>
-          <ul class="flex flex-row items-center justify-end space-x-2">
-              <li>
-                <a
-                  href="/categories/ads-fatec/"
-                  class="taxonomy"
-                  title="Posts and notes on Ads-Fatec"
-                  >Ads-Fatec</a
-                >
-              </li>
-          </ul>
-      </article>
-    </li>
-    <li>
-      <article class="flex flex-row items-center">
-        <header class="grow">
-          <h3>
-            <a
-              href="/notes/ies1-002/"
-              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
-            >
-          </h3>
-        </header>
-          <ul class="flex flex-row items-center justify-end space-x-2">
-              <li>
-                <a
-                  href="/categories/ads-fatec/"
-                  class="taxonomy"
-                  title="Posts and notes on Ads-Fatec"
-                  >Ads-Fatec</a
-                >
-              </li>
-          </ul>
-      </article>
-    </li>
-    <li>
-      <article class="flex flex-row items-center">
-        <header class="grow">
-          <h3>
-            <a
-              href="/notes/ies1-001/"
-              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 01"
-              >Engenharia De Software I - Aula 01</a
-            >
-          </h3>
-        </header>
-          <ul class="flex flex-row items-center justify-end space-x-2">
-              <li>
-                <a
-                  href="/categories/ads-fatec/"
-                  class="taxonomy"
-                  title="Posts and notes on Ads-Fatec"
-                  >Ads-Fatec</a
-                >
-              </li>
-          </ul>
-      </article>
-    </li>
-    <li>
-      <article class="flex flex-row items-center">
-        <header class="grow">
-          <h3>
-            <a
-              href="/notes/ies1-002/"
-              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
-            >
-          </h3>
-        </header>
-          <ul class="flex flex-row items-center justify-end space-x-2">
-              <li>
-                <a
-                  href="/categories/ads-fatec/"
-                  class="taxonomy"
-                  title="Posts and notes on Ads-Fatec"
-                  >Ads-Fatec</a
-                >
-              </li>
-          </ul>
-      </article>
-    </li>
-    <li>
-      <article class="flex flex-row items-center">
-        <header class="grow">
-          <h3>
-            <a
-              href="/notes/ies1-001/"
-              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 01"
-              >Engenharia De Software I - Aula 01</a
+              title="Fundamentos de Orientação a Objetos"
+              >Fundamentos De Orientação a Objetos</a
             >
           </h3>
         </header>
@@ -884,10 +1001,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-002/"
+              href="/notes/ibd-003/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
+              title="Banco de Dados - Exercícios SQL"
+              >Banco De Dados - Exercícios SQL</a
             >
           </h3>
         </header>
@@ -932,10 +1049,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-002/"
+              href="/notes/ibd-003/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
+              title="Banco de Dados - Exercícios SQL"
+              >Banco De Dados - Exercícios SQL</a
             >
           </h3>
         </header>
@@ -980,10 +1097,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-002/"
+              href="/notes/ibd-003/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
+              title="Banco de Dados - Exercícios SQL"
+              >Banco De Dados - Exercícios SQL</a
             >
           </h3>
         </header>
@@ -1028,10 +1145,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-002/"
+              href="/notes/ibd-003/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
+              title="Banco de Dados - Exercícios SQL"
+              >Banco De Dados - Exercícios SQL</a
             >
           </h3>
         </header>
@@ -1076,10 +1193,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-002/"
+              href="/notes/ibd-003/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
+              title="Banco de Dados - Exercícios SQL"
+              >Banco De Dados - Exercícios SQL</a
             >
           </h3>
         </header>
@@ -1124,10 +1241,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-002/"
+              href="/notes/ibd-003/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
+              title="Banco de Dados - Exercícios SQL"
+              >Banco De Dados - Exercícios SQL</a
             >
           </h3>
         </header>
@@ -1172,10 +1289,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-002/"
+              href="/notes/ibd-003/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
+              title="Banco de Dados - Exercícios SQL"
+              >Banco De Dados - Exercícios SQL</a
             >
           </h3>
         </header>
@@ -1220,10 +1337,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-002/"
+              href="/notes/ibd-003/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
+              title="Banco de Dados - Exercícios SQL"
+              >Banco De Dados - Exercícios SQL</a
             >
           </h3>
         </header>
@@ -1265,10 +1382,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-002/"
+              href="/notes/abstracao-poo/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 02"
-              >Engenharia De Software I - Aula 02</a
+              title="Abstração em POO"
+              >Abstração Em POO</a
             >
           </h3>
         </header>
@@ -1289,10 +1406,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/ies1-001/"
+              href="/notes/conceito-poo/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Engenharia de Software I - Aula 01"
-              >Engenharia De Software I - Aula 01</a
+              title="Fundamentos de Orientação a Objetos"
+              >Fundamentos De Orientação a Objetos</a
             >
           </h3>
         </header>
@@ -1313,10 +1430,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/aag-005/"
+              href="/notes/interfaces-poo/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Classificação e Curva ABC"
-              >Classificação E Curva ABC</a
+              title="Interfaces em POO"
+              >Interfaces Em POO</a
             >
           </h3>
         </header>
@@ -1337,20 +1454,20 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/aag-004/"
+              href="/notes/java-swing-components/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Cálculo TPM"
-              >Cálculo TPM</a
+              title="GUI com Java Swing"
+              >GUI Com Java Swing</a
             >
           </h3>
         </header>
           <ul class="flex flex-row items-center justify-end space-x-2">
               <li>
                 <a
-                  href="/categories/ads-fatec/"
+                  href="/categories/java/"
                   class="taxonomy"
-                  title="Posts and notes on Ads-Fatec"
-                  >Ads-Fatec</a
+                  title="Posts and notes on Java"
+                  >Java</a
                 >
               </li>
           </ul>
@@ -1361,10 +1478,10 @@
         <header class="grow">
           <h3>
             <a
-              href="/notes/aag-003/"
+              href="/notes/ibd-003/"
               class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
-              title="Just In Time e Kanban"
-              >Just in Time E Kanban</a
+              title="Banco de Dados - Exercícios SQL"
+              >Banco De Dados - Exercícios SQL</a
             >
           </h3>
         </header>

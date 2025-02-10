@@ -7,27 +7,27 @@
     <generator>Hugo</generator>
     <language>pt-br</language>
     <copyright>Gabriel Coelho Soares</copyright>
-    <lastBuildDate>Sun, 12 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Java</title>
-      <link>http://localhost:1313/categories/java/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/java/</guid>
+      <title>Ads-Fatec</title>
+      <link>http://localhost:1313/categories/ads-fatec/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ads-fatec/</guid>
       <description></description>
     </item>
     <item>
       <title>Life</title>
       <link>http://localhost:1313/categories/life/</link>
-      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/life/</guid>
       <description></description>
     </item>
     <item>
-      <title>Ads-Fatec</title>
-      <link>http://localhost:1313/categories/ads-fatec/</link>
-      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ads-fatec/</guid>
+      <title>Java</title>
+      <link>http://localhost:1313/categories/java/</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/java/</guid>
       <description></description>
     </item>
   </channel>

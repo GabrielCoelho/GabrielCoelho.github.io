@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>pt-br</language>
     <copyright>Gabriel Coelho Soares</copyright>
-    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Início das aulas - Novo Layout</title>
+      <link>http://localhost:1313/posts/2nd/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2nd/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Alo?! Fala meu querido, como está? (&amp;hellip;) Cara, &lt;strong&gt;preciso te atualizar das novidades&lt;/strong&gt;, vamos sentar uma hora pra almoçar?&amp;rdquo;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Um novo ano...</title>
       <link>http://localhost:1313/posts/1st/</link>
