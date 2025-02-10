@@ -965,6 +965,8 @@ $$</p>
 <p>Assim, temos que $A \cdot A^{-1} = I$ e a $\det(A) = -2$.</p>
 <p>$$ \begin{align} &amp; \begin{pmatrix} 1 &amp; 2 \ 3 &amp; 4 \end{pmatrix} \cdot \begin{pmatrix} x &amp; y \ w &amp; z \end{pmatrix} = \begin{pmatrix} 1 &amp; 0 \ 0 &amp; 1 \end{pmatrix} \ \  &amp; \text{Faça a multiplicação entre as matrizes} \ \ &amp; \begin{pmatrix} 1x+2w &amp; 1y + 2z \3x+4w &amp; 3y+4z \end{pmatrix} = \begin{pmatrix} 1 &amp; 0 \ 0 &amp; 1 \end{pmatrix} \ \ &amp; \text{agora  temos um sistema para montar: } \ \ &amp; \begin{cases} 1x+2w=1 \ 1y+2z = 0 \ 3x+4w = 0 \ 3y+4z = 1 \end{cases} \ \ &amp; \text{agora basta resolvermos com o auxílio do isolamento} \ \ &amp; y + 2z = 0 \implies y = -2z \ &amp; \text{trocaremos o y na outra equação} \ \ &amp; 3(-2z) + 4z = 1 \implies -6z+4z = 1 \implies -2z = 1 \ &amp; \implies -z = \frac{1}{2} \implies z = -0,5 \ &amp; \implies y = -2z \implies y = 1 \ \ &amp; \text{agora isolamos outra variável} \ \ &amp; 3x + 4w = 0 \implies 4w = -3x \implies w = \frac{-3x}{4} \ \ &amp; \text{substitui o w&hellip;} \ \ &amp; x + 2w = 1 \implies x + 2(\frac{-3x}{4}) = 1 \implies x+2(-0,75x) = 1 \ &amp;\implies x-1,5x = 1 \implies -0,5x = 1 \implies x = -\frac{1}{\frac{1}{2}} = -2 \ &amp;\implies x=-2 \ \ &amp; \text{por fim, substitui o x para encontrarmos o w} \ \ &amp; 3(-2) + 4w = 0 \implies -6+4w = 0 \implies 4w = 6 \ &amp;\implies w = \frac{6}{4} = 1,5 \ \
 &amp; A^{-1} = \begin{pmatrix} -2 &amp; 1 \ 1,5 &amp; -0,5 \end{pmatrix} \end{align} $$</p>
+<a href="/notes/mmd-008/" class="backlink"></a>
+
 
   </article>
     <aside class="not-prose flex flex-col space-y-8 border-t pt-6">
@@ -1080,6 +1082,776 @@ $$</p>
 
         <span>Notes</span>
       </h2>
+        <section class="flex flex-col space-y-1">
+          <h3 class="flex flex-row items-center space-x-2 text-sm font-semibold">
+            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-arrow-down-to-dot h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path d="M12 2v14M19 9l-7 7-7-7" />
+  <circle cx="12" cy="21" r="1" />
+</svg>
+
+            <span>Incoming</span>
+          </h3>
+
+          <ol class="not-prose ml-6">
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-006/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title="Matemática Discreta - Aula 06"
+              >Matemática Discreta - Aula 06</a
+            >
+          </h3>
+        </header>
+          <ul class="flex flex-row items-center justify-end space-x-2">
+              <li>
+                <a
+                  href="/categories/ads-fatec/"
+                  class="taxonomy"
+                  title="Posts and notes on Ads-Fatec"
+                  >Ads-Fatec</a
+                >
+              </li>
+          </ul>
+      </article>
+    </li>
+</ol>
+
+        </section>
+        <section class="flex flex-col space-y-1">
+          <h3 class="flex flex-row items-center space-x-2 text-sm font-semibold">
+            <svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-arrow-up-from-dot h-4 w-4"
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+>
+  <path d="m5 9 7-7 7 7M12 16V2" />
+  <circle cx="12" cy="21" r="1" />
+</svg>
+
+            <span>Outgoing</span>
+          </h3>
+
+          <ol class="not-prose ml-6">
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+    <li>
+      <article class="flex flex-row items-center">
+        <header class="grow">
+          <h3>
+            <a
+              href="/notes/mmd-008/"
+              class="truncate text-sm underline decoration-slate-300 decoration-2 underline-offset-4 hover:decoration-inherit"
+              title=""
+              ></a
+            >
+          </h3>
+        </header>
+      </article>
+    </li>
+</ol>
+
+        </section>
         <section class="flex flex-col space-y-1">
           <h3 class="flex flex-row items-center space-x-2 text-sm font-semibold">
             <svg
