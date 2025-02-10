@@ -8,22 +8,21 @@
 <meta name="language" content="en" />
 <meta name="viewport" content="width=device-width" />
 <title>
-    404 Page not found | Gabrel Coelho Soares
+    Content Graph | Gabrel Coelho Soares
 </title>
-<meta name="robots" content="noindex" />
-<meta property="og:url" content="http://localhost:1313/404.html">
+<meta property="og:url" content="http://localhost:1313/graph/">
   <meta property="og:site_name" content="Gabrel Coelho Soares">
-  <meta property="og:title" content="404 Page not found">
+  <meta property="og:title" content="Content Graph">
   <meta property="og:locale" content="pt_br">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
 
 
-  <meta itemprop="name" content="404 Page not found">
+  <meta itemprop="name" content="Content Graph">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="404 Page not found">
+  <meta name="twitter:title" content="Content Graph">
 
-<link rel="canonical" href="http://localhost:1313/404.html" />
+<link rel="canonical" href="http://localhost:1313/graph/" /><link rel="alternate" type="application/json" href="http://localhost:1313/graph/index.json" />
 
     <link rel="stylesheet" href="/css/index.css" />
 
@@ -37,7 +36,7 @@
   "@type": "WebPage",
   "copyrightNotice": "Gabriel Coelho Soares",
   "description": "",
-  "headline": "404 Page Not Found"
+  "headline": "Content Graph"
 }
 </script>
 
@@ -62,7 +61,7 @@
       >
     </li>
     <li>
-      <a href="/graph/">Graph</a
+      <a aria-current="page" class="active" href="/graph/">Graph</a
       >
     </li>
     </ul>
@@ -72,22 +71,22 @@
       </header>
       <main class="prose prose-slate relative md:prose-lg prose-h1:text-[2em]" id="maincontent">
         
-  <article>
-    <h1>Page not found</h1>
+  <article class="main">
+    <header>
+      <h1 class="!mb-1">Content Graph</h1>
+    </header>
 
-    <p class="lead">It seems you've stumbled upon a page that doesn't exist on this website.</p>
+    
 
-    <p class="font-bold">Here are a few things you can do:</p>
 
-    <ul>
-      <li>Return to the <a href="/">home page</a>.</li>
-      <li>
-        <a href="https://web.archive.org/web/*/http//localhost1313/404.html"
-          >See if the Internet Archive has a copy</a
-        >
-        if you believe this page once existed.
-      </li>
-    </ul>
+    <section class="mt-8">
+      <content-network-graph
+  class="h-96"
+  data-endpoint="/graph/index.json"
+  
+></content-network-graph>
+
+    </section>
   </article>
 
       </main>

@@ -1,80 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Gabriel Coelho Soares</title>
+    <title>Tags on Gabrel Coelho Soares</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Gabriel Coelho Soares</description>
-    <image>
-      <title>Gabriel Coelho Soares</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.140.2</generator>
+    <description>Recent content in Tags on Gabrel Coelho Soares</description>
+    <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <copyright>Gabriel Coelho Soares</copyright>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Development</title>
-      <link>http://localhost:1313/tags/development/</link>
-      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Notes</title>
-      <link>http://localhost:1313/tags/notes/</link>
-      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/notes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pkm</title>
-      <link>http://localhost:1313/tags/pkm/</link>
-      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pkm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Goals</title>
-      <link>http://localhost:1313/tags/goals/</link>
-      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/goals/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ibd002</title>
-      <link>http://localhost:1313/tags/ibd002/</link>
-      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ibd002/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ies100</title>
-      <link>http://localhost:1313/tags/ies100/</link>
-      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ies100/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mmd002</title>
-      <link>http://localhost:1313/tags/mmd002/</link>
-      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mmd002/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Aag001</title>
-      <link>http://localhost:1313/tags/aag001/</link>
-      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/aag001/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ial002</title>
-      <link>http://localhost:1313/tags/ial002/</link>
-      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ial002/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
