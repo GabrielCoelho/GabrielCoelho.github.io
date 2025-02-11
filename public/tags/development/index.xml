@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>pt-br</language>
     <copyright>Gabriel Coelho Soares</copyright>
-    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exercícios de Diagrama de Classes</title>
+      <link>http://localhost:1313/notes/ies3-001-exercicio/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/ies3-001-exercicio/</guid>
+      <description>&lt;h2 id=&#34;exercício-de-classes&#34; class=&#34;scroll-mt-8 group&#34;&gt;&#xA;  Exercício de classes&#xA;  &#xA;    &lt;a href=&#34;#exerc%c3%adcio-de-classes&#34;&#xA;        class=&#34;no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block&#34;&#xA;        aria-hidden=&#34;true&#34; title=&#34;Link to this heading&#34; tabindex=&#34;-1&#34;&gt;&#xA;        &lt;svg&#xA;  xmlns=&#34;http://www.w3.org/2000/svg&#34;&#xA;  width=&#34;16&#34;&#xA;  height=&#34;16&#34;&#xA;  fill=&#34;none&#34;&#xA;  stroke=&#34;currentColor&#34;&#xA;  stroke-linecap=&#34;round&#34;&#xA;  stroke-linejoin=&#34;round&#34;&#xA;  stroke-width=&#34;2&#34;&#xA;  class=&#34;lucide lucide-link w-4 h-4 block&#34;&#xA;  viewBox=&#34;0 0 24 24&#34;&#xA;&gt;&#xA;  &lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; /&gt;&#xA;  &lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; /&gt;&#xA;&lt;/svg&gt;&#xA;&#xA;    &lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-uma-farmácia-necessita-informatizar-seus-processos&#34; class=&#34;scroll-mt-8 group&#34;&gt;&#xA;  1. Uma Farmácia necessita informatizar seus processos&#xA;  &#xA;    &lt;a href=&#34;#1-uma-farm%c3%a1cia-necessita-informatizar-seus-processos&#34;&#xA;        class=&#34;no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block&#34;&#xA;        aria-hidden=&#34;true&#34; title=&#34;Link to this heading&#34; tabindex=&#34;-1&#34;&gt;&#xA;        &lt;svg&#xA;  xmlns=&#34;http://www.w3.org/2000/svg&#34;&#xA;  width=&#34;16&#34;&#xA;  height=&#34;16&#34;&#xA;  fill=&#34;none&#34;&#xA;  stroke=&#34;currentColor&#34;&#xA;  stroke-linecap=&#34;round&#34;&#xA;  stroke-linejoin=&#34;round&#34;&#xA;  stroke-width=&#34;2&#34;&#xA;  class=&#34;lucide lucide-link w-4 h-4 block&#34;&#xA;  viewBox=&#34;0 0 24 24&#34;&#xA;&gt;&#xA;  &lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; /&gt;&#xA;  &lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; /&gt;&#xA;&lt;/svg&gt;&#xA;&#xA;    &lt;/a&gt;&#xA;  &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Considerar o seguinte cenário para esta empresa:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Abstração em POO</title>
       <link>http://localhost:1313/notes/abstracao-poo/</link>
@@ -36,6 +43,13 @@
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/2nd/</guid>
       <description>&lt;p&gt;&amp;ldquo;Alo?! Fala meu querido, como está? (&amp;hellip;) Cara, &lt;strong&gt;preciso te atualizar das novidades&lt;/strong&gt;, vamos sentar uma hora pra almoçar?&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Interfaces em POO</title>
+      <link>http://localhost:1313/notes/interfaces-poo/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/interfaces-poo/</guid>
+      <description>&lt;h2 id=&#34;interfaces&#34; class=&#34;scroll-mt-8 group&#34;&gt;&#xA;  Interfaces&#xA;  &#xA;    &lt;a href=&#34;#interfaces&#34;&#xA;        class=&#34;no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block&#34;&#xA;        aria-hidden=&#34;true&#34; title=&#34;Link to this heading&#34; tabindex=&#34;-1&#34;&gt;&#xA;        &lt;svg&#xA;  xmlns=&#34;http://www.w3.org/2000/svg&#34;&#xA;  width=&#34;16&#34;&#xA;  height=&#34;16&#34;&#xA;  fill=&#34;none&#34;&#xA;  stroke=&#34;currentColor&#34;&#xA;  stroke-linecap=&#34;round&#34;&#xA;  stroke-linejoin=&#34;round&#34;&#xA;  stroke-width=&#34;2&#34;&#xA;  class=&#34;lucide lucide-link w-4 h-4 block&#34;&#xA;  viewBox=&#34;0 0 24 24&#34;&#xA;&gt;&#xA;  &lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34; /&gt;&#xA;  &lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34; /&gt;&#xA;&lt;/svg&gt;&#xA;&#xA;    &lt;/a&gt;&#xA;  &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;O Java não permite a herança de duas classes distintas, assim nasce a interface que &amp;ldquo;burla&amp;rdquo; essa regra.&lt;/p&gt;&#xA;&lt;p&gt;Uma interface ela necessariamente é uma &lt;a href=&#34;http://localhost:1313/notes/abstracao-poo/&#34; class=&#34;backlink&#34;&gt;Abstração em POO&lt;/a&gt;&#xA;, por isso, por mais que você não coloque a palavra chave &lt;code&gt;abstract&lt;/code&gt;, ela é automaticamente interpretada como se tivesse.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GUI com Java Swing</title>
