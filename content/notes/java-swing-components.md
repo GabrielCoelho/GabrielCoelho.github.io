@@ -10,6 +10,7 @@ TocOpen: true
 ShowReadingTime: true
 ShowWordCount: true
 ---
+{{<backlink "ilp007-01">}}
 
 O pacote `javax.swing` oferece uma ampla gama de componentes gráficos para criar interfaces gráficas de usuário (GUIs) no Java. Esses componentes são conhecidos como **JComponents** e fornecem uma base para criar interfaces modernas e funcionais. Aqui está uma visão geral dos principais **JComponents**:
 

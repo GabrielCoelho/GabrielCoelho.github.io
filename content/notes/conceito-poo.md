@@ -7,6 +7,7 @@ tags: ["development", "ies300", "ilp007", "oop"]
 categories: ["ads-fatec"]
 ---
 {{<backlink "ies3-001">}}
+{{<backlink "ilp007-01">}}
 
 # Fundamentos da Orientação à Objetos
 
