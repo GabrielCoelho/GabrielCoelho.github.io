@@ -7,9 +7,17 @@
         "/notes/aag-002/",
         "/notes/ies1-001/",
         "/notes/aag-002/",
+        "/notes/ies1-001/",
+        "/notes/aag-002/",
+        "/notes/ies1-001/",
+        "/notes/aag-002/",
         "/notes/ies1-001/"
       ],
       "out": [
+        "/notes/aag-002/",
+        "/notes/aag-003/",
+        "/notes/aag-002/",
+        "/notes/aag-003/",
         "/notes/aag-002/",
         "/notes/aag-003/",
         "/notes/aag-002/",
@@ -25,9 +33,17 @@
         "/notes/aag-001/",
         "/notes/aag-003/",
         "/notes/aag-001/",
+        "/notes/aag-003/",
+        "/notes/aag-001/",
+        "/notes/aag-003/",
+        "/notes/aag-001/",
         "/notes/aag-003/"
       ],
       "out": [
+        "/notes/aag-001/",
+        "/notes/aag-003/",
+        "/notes/aag-001/",
+        "/notes/aag-003/",
         "/notes/aag-001/",
         "/notes/aag-003/",
         "/notes/aag-001/",
@@ -46,9 +62,19 @@
         "/notes/aag-004/",
         "/notes/aag-001/",
         "/notes/aag-002/",
+        "/notes/aag-004/",
+        "/notes/aag-001/",
+        "/notes/aag-002/",
+        "/notes/aag-004/",
+        "/notes/aag-001/",
+        "/notes/aag-002/",
         "/notes/aag-004/"
       ],
       "out": [
+        "/notes/aag-002/",
+        "/notes/aag-004/",
+        "/notes/aag-002/",
+        "/notes/aag-004/",
         "/notes/aag-002/",
         "/notes/aag-004/",
         "/notes/aag-002/",
@@ -64,9 +90,17 @@
         "/notes/aag-005/",
         "/notes/aag-003/",
         "/notes/aag-005/",
+        "/notes/aag-003/",
+        "/notes/aag-005/",
+        "/notes/aag-003/",
+        "/notes/aag-005/",
         "/notes/aag-003/"
       ],
       "out": [
+        "/notes/aag-003/",
+        "/notes/aag-005/",
+        "/notes/aag-003/",
+        "/notes/aag-005/",
         "/notes/aag-003/",
         "/notes/aag-005/",
         "/notes/aag-003/",
@@ -79,9 +113,13 @@
       "in": [
         "/notes/aag-004/",
         "/notes/aag-004/",
+        "/notes/aag-004/",
+        "/notes/aag-004/",
         "/notes/aag-004/"
       ],
       "out": [
+        "/notes/aag-004/",
+        "/notes/aag-004/",
         "/notes/aag-004/",
         "/notes/aag-004/",
         "/notes/aag-004/"
@@ -94,9 +132,19 @@
         "/notes/ilp007-01/",
         "/notes/interfaces-poo/",
         "/notes/ilp007-01/",
+        "/notes/interfaces-poo/",
+        "/notes/ilp007-01/",
+        "/notes/interfaces-poo/",
+        "/notes/ilp007-01/",
         "/notes/interfaces-poo/"
       ],
       "out": [
+        "/notes/conceito-poo/",
+        "/notes/ies3-001/",
+        "/notes/ilp007-01/",
+        "/notes/conceito-poo/",
+        "/notes/ies3-001/",
+        "/notes/ilp007-01/",
         "/notes/conceito-poo/",
         "/notes/ies3-001/",
         "/notes/ilp007-01/",
@@ -123,9 +171,17 @@
         "/notes/ilp007-01/",
         "/notes/abstracao-poo/",
         "/notes/ilp007-01/",
+        "/notes/abstracao-poo/",
+        "/notes/ilp007-01/",
+        "/notes/abstracao-poo/",
+        "/notes/ilp007-01/",
         "/notes/abstracao-poo/"
       ],
       "out": [
+        "/notes/ies3-001/",
+        "/notes/ilp007-01/",
+        "/notes/ies3-001/",
+        "/notes/ilp007-01/",
         "/notes/ies3-001/",
         "/notes/ilp007-01/",
         "/notes/ies3-001/",
@@ -141,9 +197,15 @@
         "/notes/mmd-004/",
         "/notes/ial002-aulas1-e-2/",
         "/notes/mmd-004/",
+        "/notes/ial002-aulas1-e-2/",
+        "/notes/mmd-004/",
+        "/notes/ial002-aulas1-e-2/",
+        "/notes/mmd-004/",
         "/notes/ial002-aulas1-e-2/"
       ],
       "out": [
+        "/notes/ial002-aulas1-e-2/",
+        "/notes/ial002-aulas1-e-2/",
         "/notes/ial002-aulas1-e-2/",
         "/notes/ial002-aulas1-e-2/",
         "/notes/ial002-aulas1-e-2/"
@@ -153,9 +215,13 @@
       "in": [
         "/notes/ial002-aula03/",
         "/notes/ial002-aula03/",
+        "/notes/ial002-aula03/",
+        "/notes/ial002-aula03/",
         "/notes/ial002-aula03/"
       ],
       "out": [
+        "/notes/ial002-aula03/",
+        "/notes/ial002-aula03/",
         "/notes/ial002-aula03/",
         "/notes/ial002-aula03/",
         "/notes/ial002-aula03/"
@@ -166,6 +232,8 @@
       "out": [
         "/notes/ibd-002/",
         "/notes/ibd-002/",
+        "/notes/ibd-002/",
+        "/notes/ibd-002/",
         "/notes/ibd-002/"
       ]
     },
@@ -173,9 +241,13 @@
       "in": [
         "/notes/ibd-001/",
         "/notes/ibd-001/",
+        "/notes/ibd-001/",
+        "/notes/ibd-001/",
         "/notes/ibd-001/"
       ],
       "out": [
+        "/notes/ibd-003/",
+        "/notes/ibd-003/",
         "/notes/ibd-003/",
         "/notes/ibd-003/",
         "/notes/ibd-003/"
@@ -183,6 +255,10 @@
     },
     "/notes/ibd-003/": {
       "in": [
+        "/notes/ies3-001/",
+        "/notes/ibd-002/",
+        "/notes/ies3-001/",
+        "/notes/ibd-002/",
         "/notes/ies3-001/",
         "/notes/ibd-002/",
         "/notes/ies3-001/",
@@ -202,9 +278,21 @@
         "/notes/ies1-002/",
         "/notes/ies3-001/",
         "/notes/ies1-003/",
+        "/notes/ies1-002/",
+        "/notes/ies3-001/",
+        "/notes/ies1-003/",
+        "/notes/ies1-002/",
+        "/notes/ies3-001/",
+        "/notes/ies1-003/",
         "/notes/ies1-002/"
       ],
       "out": [
+        "/notes/aag-001/",
+        "/notes/ies1-003/",
+        "/notes/ies1-002/",
+        "/notes/aag-001/",
+        "/notes/ies1-003/",
+        "/notes/ies1-002/",
         "/notes/aag-001/",
         "/notes/ies1-003/",
         "/notes/ies1-002/",
@@ -223,9 +311,17 @@
         "/notes/ies1-003/",
         "/notes/ies1-001/",
         "/notes/ies1-003/",
+        "/notes/ies1-001/",
+        "/notes/ies1-003/",
+        "/notes/ies1-001/",
+        "/notes/ies1-003/",
         "/notes/ies1-001/"
       ],
       "out": [
+        "/notes/ies1-001/",
+        "/notes/ies1-003/",
+        "/notes/ies1-001/",
+        "/notes/ies1-003/",
         "/notes/ies1-001/",
         "/notes/ies1-003/",
         "/notes/ies1-001/",
@@ -241,9 +337,17 @@
         "/notes/ies1-002/",
         "/notes/ies1-001/",
         "/notes/ies1-002/",
+        "/notes/ies1-001/",
+        "/notes/ies1-002/",
+        "/notes/ies1-001/",
+        "/notes/ies1-002/",
         "/notes/ies1-001/"
       ],
       "out": [
+        "/notes/ies1-001/",
+        "/notes/ies1-002/",
+        "/notes/ies1-001/",
+        "/notes/ies1-002/",
         "/notes/ies1-001/",
         "/notes/ies1-002/",
         "/notes/ies1-001/",
@@ -254,6 +358,8 @@
     },
     "/notes/ies3-001-exercicio/": {
       "in": [
+        "/notes/ies3-001/",
+        "/notes/ies3-001/",
         "/notes/ies3-001/",
         "/notes/ies3-001/",
         "/notes/ies3-001/"
@@ -270,9 +376,23 @@
         "/notes/conceito-poo/",
         "/notes/ilp007-01/",
         "/notes/abstracao-poo/",
+        "/notes/conceito-poo/",
+        "/notes/ilp007-01/",
+        "/notes/abstracao-poo/",
+        "/notes/conceito-poo/",
+        "/notes/ilp007-01/",
+        "/notes/abstracao-poo/",
         "/notes/conceito-poo/"
       ],
       "out": [
+        "/notes/ies1-001/",
+        "/notes/ibd-003/",
+        "/notes/ies3-001-exercicio/",
+        "/notes/ilp007-01/",
+        "/notes/ies1-001/",
+        "/notes/ibd-003/",
+        "/notes/ies3-001-exercicio/",
+        "/notes/ilp007-01/",
         "/notes/ies1-001/",
         "/notes/ibd-003/",
         "/notes/ies3-001-exercicio/",
@@ -303,9 +423,27 @@
         "/notes/ies3-001/",
         "/notes/conceito-poo/",
         "/notes/interfaces-poo/",
+        "/notes/java-swing-components/",
+        "/notes/abstracao-poo/",
+        "/notes/ies3-001/",
+        "/notes/conceito-poo/",
+        "/notes/interfaces-poo/",
+        "/notes/java-swing-components/",
+        "/notes/abstracao-poo/",
+        "/notes/ies3-001/",
+        "/notes/conceito-poo/",
+        "/notes/interfaces-poo/",
         "/notes/java-swing-components/"
       ],
       "out": [
+        "/notes/conceito-poo/",
+        "/notes/abstracao-poo/",
+        "/notes/interfaces-poo/",
+        "/notes/ies3-001/",
+        "/notes/conceito-poo/",
+        "/notes/abstracao-poo/",
+        "/notes/interfaces-poo/",
+        "/notes/ies3-001/",
         "/notes/conceito-poo/",
         "/notes/abstracao-poo/",
         "/notes/interfaces-poo/",
@@ -328,9 +466,15 @@
       "in": [
         "/notes/ilp007-01/",
         "/notes/ilp007-01/",
+        "/notes/ilp007-01/",
+        "/notes/ilp007-01/",
         "/notes/ilp007-01/"
       ],
       "out": [
+        "/notes/abstracao-poo/",
+        "/notes/ilp007-01/",
+        "/notes/abstracao-poo/",
+        "/notes/ilp007-01/",
         "/notes/abstracao-poo/",
         "/notes/ilp007-01/",
         "/notes/abstracao-poo/",
@@ -352,6 +496,8 @@
       "out": [
         "/notes/ilp007-01/",
         "/notes/ilp007-01/",
+        "/notes/ilp007-01/",
+        "/notes/ilp007-01/",
         "/notes/ilp007-01/"
       ]
     },
@@ -362,9 +508,15 @@
         "/notes/mmd-002/",
         "/notes/mmd-001/",
         "/notes/mmd-002/",
+        "/notes/mmd-001/",
+        "/notes/mmd-002/",
+        "/notes/mmd-001/",
+        "/notes/mmd-002/",
         "/notes/mmd-001/"
       ],
       "out": [
+        "/notes/mmd-001/",
+        "/notes/mmd-001/",
         "/notes/mmd-001/",
         "/notes/mmd-001/",
         "/notes/mmd-001/"
@@ -374,9 +526,15 @@
       "in": [
         "/notes/mmd-003/",
         "/notes/mmd-003/",
+        "/notes/mmd-003/",
+        "/notes/mmd-003/",
         "/notes/mmd-003/"
       ],
       "out": [
+        "/notes/mmd-001/",
+        "/notes/mmd-003/",
+        "/notes/mmd-001/",
+        "/notes/mmd-003/",
         "/notes/mmd-001/",
         "/notes/mmd-003/",
         "/notes/mmd-001/",
@@ -392,9 +550,17 @@
         "/notes/mmd-004/",
         "/notes/mmd-002/",
         "/notes/mmd-004/",
+        "/notes/mmd-002/",
+        "/notes/mmd-004/",
+        "/notes/mmd-002/",
+        "/notes/mmd-004/",
         "/notes/mmd-002/"
       ],
       "out": [
+        "/notes/mmd-002/",
+        "/notes/mmd-004/",
+        "/notes/mmd-002/",
+        "/notes/mmd-004/",
         "/notes/mmd-002/",
         "/notes/mmd-004/",
         "/notes/mmd-002/",
@@ -405,6 +571,10 @@
     },
     "/notes/mmd-004/": {
       "in": [
+        "/notes/mmd-005/",
+        "/notes/mmd-003/",
+        "/notes/mmd-005/",
+        "/notes/mmd-003/",
         "/notes/mmd-005/",
         "/notes/mmd-003/",
         "/notes/mmd-005/",
@@ -421,6 +591,12 @@
         "/notes/ial002-aula03/",
         "/notes/mmd-003/",
         "/notes/mmd-005/",
+        "/notes/ial002-aula03/",
+        "/notes/mmd-003/",
+        "/notes/mmd-005/",
+        "/notes/ial002-aula03/",
+        "/notes/mmd-003/",
+        "/notes/mmd-005/",
         "/notes/ial002-aula03/"
       ]
     },
@@ -428,9 +604,15 @@
       "in": [
         "/notes/mmd-004/",
         "/notes/mmd-004/",
+        "/notes/mmd-004/",
+        "/notes/mmd-004/",
         "/notes/mmd-004/"
       ],
       "out": [
+        "/notes/mmd-004/",
+        "/notes/mmd-006/",
+        "/notes/mmd-004/",
+        "/notes/mmd-006/",
         "/notes/mmd-004/",
         "/notes/mmd-006/",
         "/notes/mmd-004/",
@@ -443,9 +625,13 @@
       "in": [
         "/notes/mmd-005/",
         "/notes/mmd-005/",
+        "/notes/mmd-005/",
+        "/notes/mmd-005/",
         "/notes/mmd-005/"
       ],
       "out": [
+        "/notes/mmd-007/",
+        "/notes/mmd-007/",
         "/notes/mmd-007/",
         "/notes/mmd-007/",
         "/notes/mmd-007/"
@@ -455,9 +641,13 @@
       "in": [
         "/notes/mmd-006/",
         "/notes/mmd-006/",
+        "/notes/mmd-006/",
+        "/notes/mmd-006/",
         "/notes/mmd-006/"
       ],
       "out": [
+        "/notes/mmd-008/",
+        "/notes/mmd-008/",
         "/notes/mmd-008/",
         "/notes/mmd-008/",
         "/notes/mmd-008/"
@@ -465,6 +655,8 @@
     },
     "/notes/mmd-008/": {
       "in": [
+        "/notes/mmd-007/",
+        "/notes/mmd-007/",
         "/notes/mmd-007/",
         "/notes/mmd-007/",
         "/notes/mmd-007/"
@@ -475,6 +667,8 @@
       "in": [
         "/posts/2nd/",
         "/posts/2nd/",
+        "/posts/2nd/",
+        "/posts/2nd/",
         "/posts/2nd/"
       ],
       "out": []
@@ -482,6 +676,8 @@
     "/posts/2nd/": {
       "in": [],
       "out": [
+        "/posts/1st/",
+        "/posts/1st/",
         "/posts/1st/",
         "/posts/1st/",
         "/posts/1st/"
