@@ -343,6 +343,10 @@
       "in": [],
       "out": []
     },
+    "/notes/iso200-001/": {
+      "in": [],
+      "out": []
+    },
     "/notes/java-swing-components/": {
       "in": [],
       "out": [
@@ -471,24 +475,6 @@
       "in": [
         "/posts/2nd/",
         "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
-        "/posts/2nd/",
         "/posts/2nd/"
       ],
       "out": []
@@ -496,24 +482,6 @@
     "/posts/2nd/": {
       "in": [],
       "out": [
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
-        "/posts/1st/",
         "/posts/1st/",
         "/posts/1st/",
         "/posts/1st/"
@@ -635,6 +603,11 @@
       "permalink": "/notes/isg003-001/",
       "section": "notes",
       "title": "Segurança Da Informação - Aula 01"
+    },
+    "/notes/iso200-001/": {
+      "permalink": "/notes/iso200-001/",
+      "section": "notes",
+      "title": "Sistemas Operacionais II - Aula 01"
     },
     "/notes/java-swing-components/": {
       "permalink": "/notes/java-swing-components/",
