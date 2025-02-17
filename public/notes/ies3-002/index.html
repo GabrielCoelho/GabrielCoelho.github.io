@@ -31,7 +31,7 @@
   <meta itemprop="description" content="Conceitos de Orientação a Objetos - UML Class">
   <meta itemprop="datePublished" content="2025-02-17T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-02-17T00:00:00+00:00">
-  <meta itemprop="wordCount" content="337">
+  <meta itemprop="wordCount" content="439">
   <meta itemprop="keywords" content="Development,Ies300,Ilp007,Oop">
 
   <meta name="twitter:card" content="summary">
@@ -71,9 +71,9 @@
   ],
   "mainEntityOfPage": "http://localhost:1313/notes/ies3-002/",
   "name": "Engenharia De Software III - Aula 02",
-  "timeRequired": "PT2M",
+  "timeRequired": "PT3M",
   "url": "http://localhost:1313/notes/ies3-002/",
-  "wordCount": 337
+  "wordCount": 439
 }
 </script>
 
@@ -273,7 +273,13 @@ o exemplo abaixo:</p>
 <li>Um carro possui rodas e motor;</li>
 <li>As rodas e o motor, sem o carro, não fazem sentido;</li>
 <li>Se um carro é deletado, seu motor e suas rodas também
-são deletados.</li>
+são deletados.
+<ul>
+<li>Note que é deletado somente o motor DESSE OBJETO, as
+rodas DESSE OBJETO. Os demais motores e rodas não serão
+afetados pela remoção do carro.</li>
+</ul>
+</li>
 </ul>
 <p><img src="exemplo4.png" alt="Exemplo Composição"></p>
 <h3 id="dependência" class="scroll-mt-8 group">
@@ -301,6 +307,45 @@ são deletados.</li>
     </a>
   
 </h3>
+<p>Dependências são chamados de relacionamentos &ldquo;usa um/uma&rdquo;.
+Vamos ao exemplo:</p>
+<ul>
+<li>A comissão de um funcionário depende da Venda;</li>
+<li>A venda, por sua vez, depende da cotação do Dólar.</li>
+</ul>
+<p><img src="exemplo5.png" alt="Exemplo Dependência"></p>
+<h3 id="breve-revisão" class="scroll-mt-8 group">
+  Breve revisão
+  
+    <a href="#breve-revis%c3%a3o"
+        class="no-underline hidden opacity-50 hover:opacity-100 !text-inherit group-hover:inline-block"
+        aria-hidden="true" title="Link to this heading" tabindex="-1">
+        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="16"
+  height="16"
+  fill="none"
+  stroke="currentColor"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  class="lucide lucide-link w-4 h-4 block"
+  viewBox="0 0 24 24"
+>
+  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+</svg>
+
+    </a>
+  
+</h3>
+<p><code>------|&gt;</code> Representa herança (triângulo/seta fechado) <br>
+<code>--------</code> Representa uma associação sem regras <br>
+<code>x------&gt;</code> Representa uma associação não navegável para navegável <br>
+<code>&lt;------&gt;</code> Representa uma associação com multiplicidade <br>
+<code>------&lt;&gt;</code> Representa uma Agregação <strong>Estando sem pintar</strong> <br>
+<code>------&lt;&gt;</code> Representa uma Composição <strong>Deve estar pintada</strong> <br>
+<code>.......&gt;</code> Representa uma Dependência (deve estar pontilhada/traceçada) \</p>
 
   </article>
     <aside class="not-prose flex flex-col space-y-8 border-t pt-6">
