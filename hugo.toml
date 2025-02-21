@@ -1,6 +1,6 @@
 baseURL = 'https://gabrielcoelho.github.io/'
 languageCode = 'pt-br'
-title = "<dev title=\"Coelho\">"
+title = "dev:Coelho"
 copyright = 'Gabriel Coelho Soares' # Used in the footer copyright mention.
 enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's genAI/LLM web crawler blocking feature.
 
@@ -15,7 +15,7 @@ enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's g
 
 [menus]
   [[menus.main]]
-    name = 'Notes'
+    name = 'Anotações'
     pageRef = '/notes'
     weight = 20
   [[menus.main]]
@@ -23,7 +23,7 @@ enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's g
     pageRef = '/posts'
     weight = 30
   [[menus.main]]
-    name = 'Graph'
+    name = 'Gráfico'
     pageRef = '/graph'
     weight = 40
 
