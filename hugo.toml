@@ -3,6 +3,7 @@ languageCode = 'pt-br'
 title = "dev:Coelho"
 copyright = 'Gabriel Coelho Soares' # Used in the footer copyright mention.
 enableRobotsTXT = true # IMPORTANT: set to true if you want to use the theme's genAI/LLM web crawler blocking feature.
+math = true
 
 [module]
   [[module.imports]]
