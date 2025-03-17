@@ -19,7 +19,7 @@ O Diagrama de Sequência é um dos diagramas comportamentais mais importantes na
 - **Foco nas interações**: Demonstra como objetos se comunicam entre si
 - **Baseado em casos de uso**: Geralmente deriva de um caso de uso específico, detalhando sua implementação
 
-> "O Diagrama de Sequência determina a sequência de eventos que ocorrem em um determinado processo, identificando quais condições devem ser satisfeitas e quais métodos devem ser disparados entre os objetos envolvidos."
+> O Diagrama de Sequência determina a sequência de eventos que ocorrem em um determinado processo, identificando quais condições devem ser satisfeitas e quais métodos devem ser disparados entre os objetos envolvidos.
 
 ## Componentes Fundamentais
 
@@ -56,24 +56,23 @@ Comunicações entre objetos, representadas por setas horizontais entre linhas d
 
 Expressas entre colchetes ([condição]), indicam que uma mensagem só será enviada se a condição for verdadeira.
 
-## Exemplos de Diagramas de Sequência
+## Exemplos de Diagramas de Sequência ¹
 
 ### Exemplo 1: Sistema de Login
-
-![Sistema de Login](https://miro.medium.com/v2/resize:fit:1200/1*7Z16llzUVXCbzSU45hFPHg.png)¹
 
 ```
 Usuário                    TelaLogin                   SistemaAutenticação                BancoDados
    |                           |                               |                               |
-   |---(1) acessarSistema()-->|                               |                               |
+   |---(1) acessarSistema()--> |                               |                               |
    |                           |                               |                               |
-   |                           |<--(2) exibirTelaLogin()------|                               |
+   |                           |<--(2) exibirTelaLogin()-------|                               |
    |                           |                               |                               |
-   |---(3) inserirCredenciais(login, senha)-->|               |                               |
-   |                           |                               |                               |
-   |                           |---(4) validarUsuario(login, senha)-->|                       |
-   |                           |                               |                               |
-   |                           |                               |---(5) consultarUsuario(login)-->|
+   |---(3)inserirCredenciais-->|                               |                               |
+   | (login, senha)            |                               |                               |
+   |                           |---(4) validarUsuario--------->|                               |
+   |                           |       (login, senha)          |                               |
+   |                           |                               |---(5)consultarUsuario-------->|
+   |                           |                               |      (login)                  |
    |                           |                               |                               |
    |                           |                               |<--(6) retornarDados()---------|
    |                           |                               |                               |
@@ -81,7 +80,7 @@ Usuário                    TelaLogin                   SistemaAutenticação   
    |                           |                               |                               |
    |                           |<--(8) retornarResultado()-----|                               |
    |                           |                               |                               |
-   |<--(9) exibirMensagem()---|                               |                               |
+   |<--(9) exibirMensagem()--- |                               |                               |
 ```
 
 ### Exemplo 2: Processo de Compra Online
