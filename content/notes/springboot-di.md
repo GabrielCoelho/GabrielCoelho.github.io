@@ -1,6 +1,6 @@
 ---
 author: "Gabriel Coelho Soares"
-title: "Injeção de Dependências"
+title: "Injeção de Dependências - Springboot"
 date: "2025-03-17"
 description: "Padrão de projeto para implementar a IoC"
 tags: ["development", "java", "oop"]

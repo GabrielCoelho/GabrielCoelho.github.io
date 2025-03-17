@@ -1,6 +1,6 @@
 ---
 author: "Gabriel Coelho Soares"
-title: "Inversão de Controle - Java Springboot"
+title: "Inversão de Controle - Springboot"
 date: "2025-03-17"
 description: "Princípio arquitetural de software do Spring Framework"
 tags: ["development", "java", "oop"]
