@@ -5,7 +5,6 @@ date: "2025-03-17"
 description: "Princípio arquitetural de software do Spring Framework"
 tags: ["development", "java", "oop"]
 categories: ["decola-tech-2025"]
-
 ---
 # Inversão de Controle (IoC)
 

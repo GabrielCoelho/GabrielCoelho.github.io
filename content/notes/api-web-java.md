@@ -208,3 +208,7 @@ Os códigos de status são essenciais para APIs RESTful:
 ## Considerações Finais
 
 A escolha do tipo de API depende das necessidades específicas do projeto, dos recursos disponíveis e da expertise da equipe. RESTful continua sendo a abordagem dominante pela simplicidade e compatibilidade, enquanto GraphQL ganha terreno para aplicações com necessidades de dados complexas. O importante é seguir as práticas recomendadas para criar APIs consistentes, seguras e que ofereçam excelente experiência aos desenvolvedores que as utilizarão.
+
+----------
+
+{{<backlink "spring-boot/ioc">}}
