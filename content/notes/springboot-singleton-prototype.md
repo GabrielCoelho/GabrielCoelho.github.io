@@ -2,7 +2,7 @@
 author: "Gabriel Coelho Soares"
 title: "Singleton x Prototype - Springboot"
 date: "2025-03-17"
-description: "Unidades fundamentais na arquitetura dos beans em Springboot"
+description: "Unidades fundamentais na arquitetura dos Beans em Springboot"
 tags: ["development", "java", "oop"]
 categories: ["decola-tech-2025"]
 ---
