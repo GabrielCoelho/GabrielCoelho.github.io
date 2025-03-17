@@ -71,6 +71,6 @@ class Cliente {
 ```
 
 ### Notas Complementares
-¹ A IoC permite focar no desenvolvimento da lógica de negócios, delegando aspectos estruturais ao framework.
-² Este conceito se relaciona com o princípio SOLID de "Dependency Inversion", que preconiza que módulos de alto nível não devem depender de módulos de baixo nível.
+¹ A IoC permite focar no desenvolvimento da lógica de negócios, delegando aspectos estruturais ao framework. \
+² Este conceito se relaciona com o princípio SOLID de {{<backlink "springboot-di" "Dependency Inversion">}}, que preconiza que módulos de alto nível não devem depender de módulos de baixo nível.
 

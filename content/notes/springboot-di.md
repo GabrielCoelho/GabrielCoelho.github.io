@@ -13,7 +13,7 @@ categories: ["decola-tech-2025"]
 
 ### Definição Formal
 
-> "Injeção de Dependências (DI) é um padrão de projeto que implementa o princípio de {{<backlink "ioc">}}, permitindo que dependências sejam fornecidas a um objeto em vez de o próprio objeto criar ou procurar por suas dependências."
+> "Injeção de Dependências (DI) é um padrão de projeto que implementa o princípio de {{<backlink "springboot-ioc">}}, permitindo que dependências sejam fornecidas a um objeto em vez de o próprio objeto criar ou procurar por suas dependências."
 
 A Injeção de Dependências constitui a implementação prática do princípio de Inversão de Controle no ecossistema Spring, sendo considerada um dos pilares arquiteturais do framework.
 
