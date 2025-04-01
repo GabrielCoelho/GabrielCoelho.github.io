@@ -6,6 +6,7 @@ description: "Resumo geral de todos os conceitos que vimos em POO"
 tags: ["development", "ilp007", "oop"]
 categories: ["ads-fatec"]
 ---
+
 # Programação Orientada a Objetos: Conceitos Fundamentais em Java
 
 ## Introdução
@@ -26,15 +27,15 @@ class Pizza {
     private String saborMetade1;
     private String saborMetade2;
     private int tempoDePreparo; // em segundos
-    
+
     public void montar() {
         // instruções para montagem da Pizza
     }
-    
+
     public void assar() {
         // verificar se já está montada e colocá-la no forno
     }
-    
+
     public void comer() {
         // implementação do método
     }
@@ -64,7 +65,7 @@ A herança permite que características comuns a diversas classes sejam definida
 class Comida {
     protected String nome;
     protected double valorCalorico;
-    
+
     public void comer() {
         System.out.println("Comendo " + nome);
     }
@@ -73,7 +74,7 @@ class Comida {
 class Pizza extends Comida {
     private String tipoDeMassa;
     private String[] coberturas;
-    
+
     // A classe Pizza herda os atributos e métodos da classe Comida
 }
 ```
@@ -118,7 +119,7 @@ public abstract class Conta {
     protected int numero;
     protected String titular;
     protected double saldo;
-    
+
     public abstract void gerarRelatorio();
 }
 ```
@@ -138,7 +139,7 @@ public class Cachorro extends Animal {
     public void emitirSom() {
         System.out.println("Au au!");
     }
-    
+
     @Override
     public void mover() {
         System.out.println("Cachorro anda em quatro patas");
@@ -158,12 +159,12 @@ public interface Pet {
 
 public class Cachorro extends Animal implements Pet {
     // Implementação dos métodos da classe Animal (emitirSom, mover)
-    
+
     @Override
     public void brincar() {
         System.out.println("Cachorros correm para brincar");
     }
-    
+
     @Override
     public void passear() {
         System.out.println("Cachorros adoram passear");
@@ -181,19 +182,19 @@ Os construtores são métodos especiais utilizados para inicializar objetos. A s
 public class ClasseA {
     public String texto1;
     public String texto2;
-    
+
     // Construtor 1
     public ClasseA() {
         texto1 = "Primeiro Texto\n";
         texto2 = "Segundo Texto\n";
     }
-    
+
     // Construtor 2 (sobrecarga)
     public ClasseA(String t1) {
         texto1 = t1;
         texto2 = "";
     }
-    
+
     // Construtor 3 (sobrecarga)
     public ClasseA(String t1, String t2) {
         texto1 = t1;
@@ -240,6 +241,7 @@ Java trabalha com dois grupos principais de tipos de dados:
 2. **Tipos de referência**: Classes, Interfaces, Arrays e Objetos
 
 Os tipos de referência possuem características distintivas:
+
 - **Nullabilidade**: Podem receber o valor `null`
 - **Métodos e Atributos**: Contêm comportamentos e estados
 - **Alocação Dinâmica**: Criados com a palavra-chave `new`
@@ -250,17 +252,20 @@ Os tipos de referência possuem características distintivas:
 Java suporta três tipos de comentários:
 
 1. **Comentários de linha única**:
+
    ```java
    // Este é um comentário de linha única
    ```
 
 2. **Comentários de múltiplas linhas**:
+
    ```java
    /* Este é um comentário
       de múltiplas linhas */
    ```
 
 3. **Comentários de documentação**:
+
    ```java
    /**
     * Este é um comentário de documentação.
@@ -268,22 +273,3 @@ Java suporta três tipos de comentários:
     * @version 1.0
     */
    ```
-
-## Notas Complementares
-
-¹ A programação orientada a objetos é especialmente útil para projetos complexos que exigem manutenibilidade e escalabilidade.
-
-² A documentação adequada utilizando JavaDoc é essencial para a manutenção a longo prazo de projetos Java.
-
-³ A compreensão profunda dos princípios de encapsulamento, herança, polimorfismo e abstração é fundamental para o desenvolvimento eficaz em Java.
-
-## Referências Bibliográficas
-
-- MENDES. Java com Ênfase em Orientação a Objetos. Novatec.
-- DEITEL. Java, como programar – 10ª edição. Java SE 7 e 8
-- ARNOLD, GOSLING, HOLMES. A linguagem de programação Java – 4ª edição.
-- Apostilas da Caelum.
-
----
-
-Este artigo apresenta uma visão sistemática dos conceitos fundamentais da Programação Orientada a Objetos em Java, abordando desde os princípios básicos até recursos mais avançados da linguagem. A compreensão destes conceitos é essencial para o desenvolvimento de software orientado a objetos de alta qualidade e manutenibilidade.
