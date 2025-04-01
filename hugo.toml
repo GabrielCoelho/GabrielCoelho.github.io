@@ -49,7 +49,7 @@ math = true
 
     # Set how many recent notes to show.
     # Default: 5
-    recentNotesLimit = 2
+    recentNotesLimit = 5
 
 # Footer setup
   [params.footer]
@@ -70,7 +70,7 @@ math = true
 [markup]
   [markup.highlight]
     noClasses = false
-    style = 'gruvbox'
+    style = 'gruvbox_dark'
 
   [markup.goldmark]
     [markup.goldmark.parser]
