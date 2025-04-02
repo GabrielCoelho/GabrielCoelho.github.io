@@ -1,3 +1,10 @@
+---
+author: "Gabriel Coelho Soares"
+title: "Economia e Finanças Resumo para prova"
+date: "2025-04-02"
+tags: ["cef-100"]
+categories: ["ads-fatec"]
+---
 # ECONOMIA E FINANÇAS: RESUMO COMPLETO
 
 ## I. FUNDAMENTOS DE ECONOMIA
