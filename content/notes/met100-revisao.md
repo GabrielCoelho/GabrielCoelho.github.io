@@ -219,7 +219,7 @@ $$
 528m - 420m = 600h - 528h \\\
 108m = 72h
 \text{relacao: 108/72} \\\
-\text{h/m = 1.5}
-\sqrt{1.5} = \color{red}1.14
+\text{h/m = 1.5} \\\
+\sqrt[3]{1.5} = \color{red}1.14
 \end{align}
 $$
