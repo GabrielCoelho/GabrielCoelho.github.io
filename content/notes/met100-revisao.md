@@ -209,3 +209,17 @@ $$
 **Portanto, a mediana de acidentes/motorista = 2**
 
 f. A moda é não haver acidentes (0 acidentes)
+
+5.
+
+$$
+\begin{align}
+528 = \frac{600h + 420m}{h+m} \\\
+528h + 528m = 600h + 420m \\\
+528m - 420m = 600h - 528h \\\
+108m = 72h
+\text{relacao: 108/72} \\\
+\text{h/m = 1.5}
+\sqrt{1.5} = \color{red}1.22
+\end{align}
+$$
