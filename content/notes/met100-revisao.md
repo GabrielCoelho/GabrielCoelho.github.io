@@ -170,3 +170,19 @@ $$
 e. Qual teve maior variação?
 
 **O Grupo dos aprovados teve maior variação.**
+
+4.
+
+# Tabela de Frequência de Acidentes
+
+| Nº de acidentes (xi) | Frequência (fi) |
+|----------------------|-----------------|
+| 0                    | 25              |
+| 1                    | 9               |
+| 2                    | 15              |
+| 3                    | 12              |
+| 4                    | 8               |
+| 5                    | 5               |
+| 6                    | 3               |
+| 7                    | 2               |
+| **Total**            | **79**          |
