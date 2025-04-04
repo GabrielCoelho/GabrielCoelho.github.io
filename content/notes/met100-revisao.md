@@ -175,14 +175,37 @@ e. Qual teve maior variação?
 
 # Tabela de Frequência de Acidentes
 
-| Nº de acidentes (xi) | Frequência (fi) |
-|----------------------|-----------------|
-| 0                    | 25              |
-| 1                    | 9               |
-| 2                    | 15              |
-| 3                    | 12              |
-| 4                    | 8               |
-| 5                    | 5               |
-| 6                    | 3               |
-| 7                    | 2               |
-| **Total**            | **79**          |
+| Nº de acidentes (xi) | Frequência (fi) | xi * fi |
+|----------------------|-----------------| ------- |
+| 0                    | 20              | 0   |
+| 1                    | 10              | 10 |
+| 2                    | 16              | 32 |
+| 3                    | 9               | 27 |
+| 4                    | 6               | 24 |
+| 5                    | 5               | 25 |
+| 6                    | 3               | 18 |
+| 7                    | 1               | 7 |
+| **Total**            | **70**          | 143 |
+
+a. 20 motoristas não sofreram acidentes
+b. 15 motoristas sofreram *ao menos* 4 acidentes
+c.
+
+$$
+\frac{(16 \times 100)}{70} = 22.85\\% \text{dos motoristas sofreram 2 acidentes}
+$$
+
+d. média
+
+$$
+\bar{x} = \frac{\sum{x_i * f_i}}{f_i} = \frac{143}{70} = 2.04
+$$
+
+e. mediana
+
+$$
+Md = \frac{\sum{f_i} + 1}{2} = \frac{71}{2} = 35.5
+$$
+**Portanto, a mediana de acidentes/motorista = 2**
+
+f. A moda é não haver acidentes (0 acidentes)
