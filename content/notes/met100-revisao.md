@@ -61,6 +61,8 @@ $$
 CV = \frac{s}{\bar{x}} \times 100 = \frac{35.01}{129.6} \times 100 = 27.016\\%
 $$
 
+Média dispersão
+
 2.
 
 $$
@@ -223,3 +225,102 @@ $$
 \sqrt[3]{1.5} = \color{red}1.14
 \end{align}
 $$
+
+6.
+
+A = 40 alunos media 6.0
+B = 25 alunos media 5.0
+
+Sairam 5 da A e suas notas eram:
+
+- 8.0
+- 7.0
+- 7.0
+- 7.0
+- 8.0
+- soma: 37
+
+A = 35 alunos media ?
+B = 30 alunos media ?
+
+Sala A sem os 5 alunos
+$$
+6\times40 = 240-37 = 203
+$$
+
+$$
+\frac{203}{35} = \color{red}5.8
+$$
+
+Sala B com os 5 alunos
+$$
+5\times 25 = 125 + 37 = 162
+$$
+
+$$
+\frac{162}{30} = \color{red}5.4
+$$
+
+7.
+
+$$
+f_i = -i^2 + 8i + 9
+$$
+
+Primeiro dia i = 0
+$$
+f_i = -0^2 + 8 \times 0 + 9 = 9
+$$
+
+segundo dia i = 1
+$$
+f_i = -1^2 + 8 \times 1 + 9 = 16
+$$
+
+terceiro dia i = 2
+$$
+f_i = -2^2 + 8 \times 2 + 9 = -4 + 16+9 = 21
+$$
+
+quarto dia i = 3
+$$
+f_i = -3^2 + 8 \times 3 + 9 = -9 + 24 + 9 = 24
+$$
+
+quinto dia i = 4
+$$
+f_i = -4^2 + 8 \times 4 + 9 = -16 + 32 + 9 = 25
+$$
+
+sexto dia i = 5
+$$
+f_i = -5^2 + 8 \times 5 + 9 = -25 + 40 + 9 = 24
+$$
+
+setimo dia i = 6
+$$
+f_i = -6^2 + 8 \times 6 + 9 = -36 + 48 + 9 = 21
+$$
+
+| xi | fi | xi * fi |
+| :-: | :-: | :-: |
+| 0 | 9 | 0 |
+| 1  | 16 | 16 |
+| 2  | 21 | 46 |
+| 3  | 24 | 72 |
+| 4  | 25 | 108 |
+| 5  | 24 | 130 |
+| 6 | 21 | 126 |
+| total | 140 | 498 |
+
+Média:
+
+$$
+\bar{x} = \frac{\sum{xi * fi}}{fi} = \frac{498}{140} = 3.55
+$$
+
+Mediana:
+$$
+Md = \frac{\sum{f_i} + 1 }{2} = \frac{147}{2} = 73.5
+$$
+Mediana será o dia 4.
