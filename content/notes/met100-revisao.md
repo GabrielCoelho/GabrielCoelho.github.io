@@ -401,3 +401,54 @@ $$CV \approx 14,64\%$$
 Classificação do CV: temos uma baixa dispersão.
 
 10.
+
+3.1) Rol
+
+| Ramos | Folhas |
+|-------|--------|
+| 5 | 1, 1, 1, 2, 2 |
+| 6 | 0, 0, 1, 2, 3, 4, 7 |
+| 7 | 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 |
+| 8 | 1, 1, 2, 3, 4, 4, 4, 8 |
+| 9 | 1, 2, 2, 2, 3, 4 |
+
+| Ordem | Classes | Pm | fi | fiac | fr | fr% | fr%ac |
+|-------|---------|-----|----|----|-----|-----|-------|
+| 1ª | 50 \|-- 60 | 55 | 5 | 5 | 0,139 | 13,9 | 13,9 |
+| 2ª | 60 \|-- 70 | 65 | 7 | 12 | 0,194 | 19,4 | 33,3 |
+| 3ª | 70 \|-- 80 | 75 | 10 | 22 | 0,278 | 27,8 | 61,1 |
+| 4ª | 80 \|-- 90 | 85 | 8 | 30 | 0,222 | 22,2 | 83,3 |
+| 5ª | 90 \|-- 100 | 95 | 6 | 36 | 0,167 | 16,7 | 100,0 |
+| Total | | | 36 | | 1,000 | 100,0 | |
+
+Respostas corrigidas às perguntas
+
+a) Quantos % tiraram notas abaixo de 80?
+   Olhando para a tabela, na linha da classe 70 \|-- 80, a fr%ac é 61,1%.
+   **Resposta:** 61,1% dos valores estão abaixo de 80.
+
+b) Quantos % dos alunos tiraram notas acima ou igual a 80?
+   100% - 61,1% = 38,9%
+   **Resposta:** 38,9% dos valores estão acima ou igual a 80.
+
+c) Quantos alunos ficaram com notas no intervalo de [60;80[?
+   Somando as frequências absolutas das classes 60 \|-- 70 e 70 \|-- 80:
+   7 + 10 = 17 alunos
+   **Resposta:** 17 alunos ficaram com notas entre 60 (inclusive) e 80 (exclusive).
+
+d) Quantos alunos tiraram notas abaixo de 90?
+   Olhando para a tabela, na linha da classe 80 \|-- 90, a fiac é 30.
+   **Resposta:** 30 alunos tiraram notas abaixo de 90.
+
+11.
+
+I. A coleta de dados pertence à primeira fase da construção de um processo estatístico? **V**
+II. A estatística era bem rudimentar nos primórdios tempos, porém foi no século XVIII que ela deu um grande impulso ou avanço. **V**
+III. Dados brutos são os dados organizados em ordem crescente ou decrescente. **F**
+IV. A variância foi criada tendo em vista que a amplitude total não é uma boa medida, pois ela toma somente os valores extremos. **F**
+V. A estatística trabalha com quantidade, aproximação, projeção. **V**
+VI. O CV (coeficiente de variação) foi criado, tendo em vista que desvio padrão eleva todos valores originais ao quadrado. **F**
+VII. As três medidas de posição são assim chamadas porque elas ficam sempre na posição central, em qualquer situação. **F**
+VIII. A secretaria da Fazenda fez um levantamento em duas empresas da região de Limeira, para se fazer um estudo sobre o pagamento do ICMS. Nesse caso a população de interesse é o pagamento do ICMS. **F**
+
+resposta correta: Letra e) somente três afirmações verdadeiras
