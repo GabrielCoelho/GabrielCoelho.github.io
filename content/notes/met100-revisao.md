@@ -442,13 +442,13 @@ d) Quantos alunos tiraram notas abaixo de 90?
 
 11.
 
-I. A coleta de dados pertence à primeira fase da construção de um processo estatístico? **V**
-II. A estatística era bem rudimentar nos primórdios tempos, porém foi no século XVIII que ela deu um grande impulso ou avanço. **V**
-III. Dados brutos são os dados organizados em ordem crescente ou decrescente. **F**
-IV. A variância foi criada tendo em vista que a amplitude total não é uma boa medida, pois ela toma somente os valores extremos. **F**
-V. A estatística trabalha com quantidade, aproximação, projeção. **V**
-VI. O CV (coeficiente de variação) foi criado, tendo em vista que desvio padrão eleva todos valores originais ao quadrado. **F**
-VII. As três medidas de posição são assim chamadas porque elas ficam sempre na posição central, em qualquer situação. **F**
+I. A coleta de dados pertence à primeira fase da construção de um processo estatístico? **V** \
+II. A estatística era bem rudimentar nos primórdios tempos, porém foi no século XVIII que ela deu um grande impulso ou avanço. **V** \
+III. Dados brutos são os dados organizados em ordem crescente ou decrescente. **F** \
+IV. A variância foi criada tendo em vista que a amplitude total não é uma boa medida, pois ela toma somente os valores extremos. **F** \
+V. A estatística trabalha com quantidade, aproximação, projeção. **V** \
+VI. O CV (coeficiente de variação) foi criado, tendo em vista que desvio padrão eleva todos valores originais ao quadrado. **F** \
+VII. As três medidas de posição são assim chamadas porque elas ficam sempre na posição central, em qualquer situação. **F** \
 VIII. A secretaria da Fazenda fez um levantamento em duas empresas da região de Limeira, para se fazer um estudo sobre o pagamento do ICMS. Nesse caso a população de interesse é o pagamento do ICMS. **F**
 
 resposta correta: Letra e) somente três afirmações verdadeiras
