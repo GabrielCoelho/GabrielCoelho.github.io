@@ -331,3 +331,72 @@ SOMA:
 $$
 3.4 + 3.5 + 4 = 10.9
 $$
+
+8.
+
+H -> 35 de 140 = 25% \
+M -> 10 de 100 = 10% \
+C -> 15 de 30 = 50%
+
+a\)
+$$
+\frac{25\\% + 10\\% + 50\\%}{3} = \frac{85\\%}{3} = 28,33\\% \approx 28\\%
+$$
+
+b\)
+
+$$
+(200 * 0.25) + (80 * 0.1) + (20 * 0.5) = 50 + 8 + 10 = 68
+$$
+
+9.
+
+| Cor | Custo por metro (R$) | Quantidade (fi) | xi·fi | xi² | fi·xi² | fiac | (xi·fi)² |
+|-----|---------------------|--------------|--------|------|--------|------|----------|
+| Branca | 6,00 | 41 | 246,00 | 36,00 | 1.476,00 | 41 | 60.516,00 |
+| Verde | 8,00 | 52 | 416,00 | 64,00 | 3.328,00 | 93 | 173.056,00 |
+| Preta | 9,00 | 93 | 837,00 | 81,00 | 7.533,00 | 186 | 700.569,00 |
+| Total | - | 186 | 1499,00 | - | 12.337,00 | - | 934.141,00 |
+
+a) O custo médio geral das mangueiras
+
+$$\bar{x} = \frac{\sum_{i=1}^{n} x_i \cdot f_i}{\sum_{i=1}^{n} f_i}$$
+
+$$\bar{x} = \frac{6,00 \cdot 41 + 8,00 \cdot 52 + 9,00 \cdot 93}{41 + 52 + 93}$$
+
+$$\bar{x} = \frac{246,00 + 416,00 + 837,00}{186}$$
+
+$$\bar{x} = \frac{1499,00}{186}$$
+
+$$\bar{x} \approx 8,05$$
+
+b) O custo mediano geral das mangueiras
+
+$$
+\frac{186+1}{2} = 93.5
+$$
+
+Portanto a Mediana = R$ 8,50 (estando entre o 8 e 9 reais)
+
+c) O custo modal geral das mangueiras
+
+A maior frequência é 93, correspondente às mangueiras pretas.
+Moda = R$ 9,00
+
+d) O desvio padrão
+
+$$s^2 = \frac{\sum_{i=1}^{n} f_i \cdot x_i^2 - \frac{(\sum_{i=1}^{n} f_i \cdot x_i)^2}{\sum_{i=1}^{n} f_i}}{\sum_{i=1}^{n} f_i - 1}$$
+$$s^2 = \frac{12337 - \frac{(1499)^2}{186}}{186 - 1$$
+$$s^2 = \frac{12337 - \frac{2247001}{186}}{185}$$
+$$s^2 = \frac{12337 - 12080,650537634}{185}$$
+$$s^2 = \frac{256,349462366}{185}$$
+$$s^2 \approx 1,39$$
+$$s = \sqrt{s^2} = \sqrt{1,39} \approx 1,17$$
+
+e) CV e sua classificação
+
+$$CV = \frac{s}{\bar{x}} \cdot 100\%$$
+$$CV = \frac{1,18}{8,05} \cdot 100\%$$
+$$CV \approx 14,64\%$$
+
+Classificação do CV: temos uma baixa dispersão.
