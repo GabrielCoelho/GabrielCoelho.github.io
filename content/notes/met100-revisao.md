@@ -380,17 +380,16 @@ Portanto a Mediana = R$ 8,50 (estando entre o 8 e 9 reais)
 
 c) O custo modal geral das mangueiras
 
-A maior frequência é 93, correspondente às mangueiras pretas.
 Moda = R$ 9,00
 
 d) O desvio padrão
 
-$$s^2 = \frac{\sum_{i=1}^{n} f_i \cdot x_i^2 - \frac{(\sum_{i=1}^{n} f_i \cdot x_i)^2}{\sum_{i=1}^{n} f_i}}{\sum_{i=1}^{n} f_i - 1}$$
-$$s^2 = \frac{12337 - \frac{(1499)^2}{186}}{186 - 1$$
-$$s^2 = \frac{12337 - \frac{2247001}{186}}{185}$$
-$$s^2 = \frac{12337 - 12080,650537634}{185}$$
-$$s^2 = \frac{256,349462366}{185}$$
-$$s^2 \approx 1,39$$
+$$s^2 = \frac{\sum_{i=1}^{n} f_i \cdot x_i^2 - \frac{(\sum_{i=1}^{n} f_i \cdot x_i)^2}{\sum_{i=1}^{n} f_i}}{\sum_{i=1}^{n} f_i - 1}$$ \
+$$s^2 = \frac{12337 - \frac{(1499)^2}{186}}{186 - 1$$ \
+$$s^2 = \frac{12337 - \frac{2247001}{186}}{185}$$ \
+$$s^2 = \frac{12337 - 12080,650537634}{185}$$ \
+$$s^2 = \frac{256,349462366}{185}$$ \
+$$s^2 \approx 1,39$$ \
 $$s = \sqrt{s^2} = \sqrt{1,39} \approx 1,17$$
 
 e) CV e sua classificação
@@ -400,3 +399,5 @@ $$CV = \frac{1,18}{8,05} \cdot 100\%$$
 $$CV \approx 14,64\%$$
 
 Classificação do CV: temos uma baixa dispersão.
+
+10.
