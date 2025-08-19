@@ -3,7 +3,7 @@ author: "Gabriel Coelho Soares"
 title: "Programação Linear e Aplicações (PLA) - Aula 02 - Exercícios"
 date: "2025-08-18"
 description: "Exercícios conceituais sobre matrizes"
-tags: ["notes", "mmd002"]
+tags: ["notes", "mpl001"]
 categories: ["ads-fatec"]
 math: true
 ---
